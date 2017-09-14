@@ -1,0 +1,77 @@
+2017-09-13 17:30:43,521 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2017-09-13 17:30:43,547 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2017-09-13 17:30:43,554 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-09-13 17:30:43,554 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-09-13 17:30:43,554 INFO o.a.j.JMeter: java.version=1.8.0_121
+2017-09-13 17:30:43,554 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-09-13 17:30:43,554 INFO o.a.j.JMeter: os.name=Windows 7
+2017-09-13 17:30:43,555 INFO o.a.j.JMeter: os.arch=amd64
+2017-09-13 17:30:43,555 INFO o.a.j.JMeter: os.version=6.1
+2017-09-13 17:30:43,555 INFO o.a.j.JMeter: file.encoding=GBK
+2017-09-13 17:30:43,555 INFO o.a.j.JMeter: Max memory     =514850816
+2017-09-13 17:30:43,555 INFO o.a.j.JMeter: Available Processors =8
+2017-09-13 17:30:43,565 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2017-09-13 17:30:43,565 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2017-09-13 17:30:43,565 INFO o.a.j.JMeter: JMeterHome=D:\anting\workspace\jmeter-maven-eclipse\target\jmeter
+2017-09-13 17:30:43,565 INFO o.a.j.JMeter: user.dir  =D:\anting\workspace\jmeter-maven-eclipse\target\jmeter\bin
+2017-09-13 17:30:43,566 INFO o.a.j.JMeter: PWD       =D:\anting\workspace\jmeter-maven-eclipse\target\jmeter\bin
+2017-09-13 17:30:43,567 INFO o.a.j.JMeter: IP: 192.168.193.1 Name: SC-201608231228 FullName: SC-201608231228
+2017-09-13 17:30:43,571 INFO o.a.j.s.FileServer: Default base='D:\anting\workspace\jmeter-maven-eclipse\target\jmeter\bin'
+2017-09-13 17:30:43,571 INFO o.a.j.s.FileServer: Set new base='D:\anting\workspace\jmeter-maven-eclipse\target\jmeter\testFiles\tmp'
+2017-09-13 17:30:43,707 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-09-13 17:30:43,721 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-09-13 17:30:43,728 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-09-13 17:30:43,736 INFO o.a.j.s.SaveService: Loading file: D:\anting\workspace\jmeter-maven-eclipse\target\jmeter\testFiles\tmp\test.jmx
+2017-09-13 17:30:43,804 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-13 17:30:43,805 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-13 17:30:43,805 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-13 17:30:43,805 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-13 17:30:43,805 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-09-13 17:30:43,805 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-09-13 17:30:43,853 INFO o.a.j.JMeter: Creating summariser <summary>
+2017-09-13 17:30:43,860 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-09-13 17:30:43,861 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-13 17:30:43,861 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-09-13 17:30:43,866 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-09-13 17:30:43,866 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-09-13 17:30:44,336 INFO o.a.j.JMeter: 正在运行的测试 (1505295044336)
+2017-09-13 17:30:44,430 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2017-09-13 17:30:44,431 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group 线程组.
+2017-09-13 17:30:44,431 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-09-13 17:30:44,431 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2017-09-13 17:30:44,440 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-09-13 17:30:44,440 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-09-13 17:30:54,431 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2017-09-13 17:30:54,435 INFO o.a.j.s.FileServer: Stored: user.csv
+2017-09-13 17:30:54,478 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = SC-201608231228
+2017-09-13 17:30:54,488 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2017-09-13 17:30:54,499 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-09-13 17:30:54,499 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-09-13 17:30:54,499 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-09-13 17:30:54,499 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-09-13 17:30:54,646 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-09-13 17:30:54,723 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2017-09-13 17:30:54,932 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2017-09-13 17:30:54,982 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2017-09-13 17:30:54,983 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2017-09-13 17:30:54,984 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2017-09-13 17:30:54,985 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2017-09-13 17:30:54,987 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2017-09-13 17:30:54,987 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2017-09-13 17:30:55,449 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [7:3801] starting at token ' ' until [7:3803] to token '}' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ")" ")"
+    at line 7, column 3802.
+
+Was expecting one of:
+
+    "+"
+    "-"
+)
+2017-09-13 17:31:00,495 INFO o.a.j.r.Summariser: summary +      7 in 00:00:16 =    0.4/s Avg:  1336 Min:    39 Max:  3533 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2017-09-13 17:31:04,436 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-2
+2017-09-13 17:31:04,436 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2017-09-13 17:31:04,445 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-1
+2017-09-13 17:31:04,446 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2017-09-13 17:31:04,448 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-09-13 17:31:04,449 INFO o.a.j.s.FileServer: Close: user.csv
+2017-09-13 17:31:04,452 INFO o.a.j.r.Summariser: summary +      7 in 00:00:04 =    1.8/s Avg:  1415 Min:    56 Max:  3614 Err:     0 (0.00%) Active: 0 Started: 2 Finished: 2
+2017-09-13 17:31:04,453 INFO o.a.j.r.Summariser: summary =     14 in 00:00:20 =    0.7/s Avg:  1375 Min:    39 Max:  3614 Err:     0 (0.00%)
