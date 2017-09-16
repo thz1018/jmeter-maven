@@ -1,0 +1,217 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Load Test Results</title><style type="text/css">
+                body { font:normal 68% verdana,arial,helvetica; color:#000000; }
+                table tr td, table tr th { font-size: 68%; }
+                table.details tr th { color: #ffffff; font-weight: bold; text-align:center; background:#2674a6; white-space: pre-wrap; }
+                table.details tr td { background:#eeeee0; white-space: pre-wrap; }
+                h1 { margin: 0px 0px 5px; font: 165% verdana,arial,helvetica }
+                h2 { margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica }
+                h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }
+                .Failure { font-weight:bold; color:red; }
+                img { border-width: 0px; }
+                .expand_link { position: absolute; right: 0px; width: 27px; top: 1px; height: 27px; }
+                .page_details { display: none; } 
+                .page_details_expanded { display: block; display/* hide this definition from  IE5/6 */: table-row; }
+                .key { min-width: 108px; width: 15%; }
+                .detail, #tdetail { display: none; }
+            </style><script language="JavaScript">
+                function toggle_details(details_id) {
+                    var objImg = document.getElementById(details_id+"_image");
+                    var objTable = document.getElementById(details_id);
+                    if(objImg.alt == "collapse") {
+                        objImg.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEALQADQANam36RQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wDDQ0hOymuu20AAAL5dEVYdENvbW1lbnQATGljZW5zZWQgdG8gdGhlIEFwYWNoZSBTb2Z0d2FyZSBGb3VuZGF0aW9uIChBU0YpIHVuZGVyIG9uZSBvciBtb3JlCmNvbnRyaWJ1dG9yIGxpY2Vuc2UgYWdyZWVtZW50cy4gIFNlZSB0aGUgTk9USUNFIGZpbGUgZGlzdHJpYnV0ZWQgd2l0aAp0aGlzIHdvcmsgZm9yIGFkZGl0aW9uYWwgaW5mb3JtYXRpb24gcmVnYXJkaW5nIGNvcHlyaWdodCBvd25lcnNoaXAuClRoZSBBU0YgbGljZW5zZXMgdGhpcyBmaWxlIHRvIFlvdSB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wCih0aGUgIkxpY2Vuc2UiKTsgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoCnRoZSBMaWNlbnNlLiAgWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0CgogICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKClVubGVzcyByZXF1aXJlZCBieSBhcHBsaWNhYmxlIGxhdyBvciBhZ3JlZWQgdG8gaW4gd3JpdGluZywgc29mdHdhcmUKZGlzdHJpYnV0ZWQgdW5kZXIgdGhlIExpY2Vuc2UgaXMgZGlzdHJpYnV0ZWQgb24gYW4gIkFTIElTIiBCQVNJUywKV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuClNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmQKbGltaXRhdGlvbnMgdW5kZXIgdGhlIExpY2Vuc2UuhUUAtwAAAC1JREFUOMtjVCtZ9p+BAsDEQCEYNYAKBrAgc252RxKlSb10OfVcwDiakIaDAQDXcQefpMw+jAAAAABJRU5ErkJggg==";
+                        objImg.alt = "expand";
+                        objTable.className = "page_details_expanded";
+                    } else {
+                        objImg.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEALQADQANam36RQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wDDQ0cLbeSRoIAAAL5dEVYdENvbW1lbnQATGljZW5zZWQgdG8gdGhlIEFwYWNoZSBTb2Z0d2FyZSBGb3VuZGF0aW9uIChBU0YpIHVuZGVyIG9uZSBvciBtb3JlCmNvbnRyaWJ1dG9yIGxpY2Vuc2UgYWdyZWVtZW50cy4gIFNlZSB0aGUgTk9USUNFIGZpbGUgZGlzdHJpYnV0ZWQgd2l0aAp0aGlzIHdvcmsgZm9yIGFkZGl0aW9uYWwgaW5mb3JtYXRpb24gcmVnYXJkaW5nIGNvcHlyaWdodCBvd25lcnNoaXAuClRoZSBBU0YgbGljZW5zZXMgdGhpcyBmaWxlIHRvIFlvdSB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wCih0aGUgIkxpY2Vuc2UiKTsgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoCnRoZSBMaWNlbnNlLiAgWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0CgogICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKClVubGVzcyByZXF1aXJlZCBieSBhcHBsaWNhYmxlIGxhdyBvciBhZ3JlZWQgdG8gaW4gd3JpdGluZywgc29mdHdhcmUKZGlzdHJpYnV0ZWQgdW5kZXIgdGhlIExpY2Vuc2UgaXMgZGlzdHJpYnV0ZWQgb24gYW4gIkFTIElTIiBCQVNJUywKV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuClNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmQKbGltaXRhdGlvbnMgdW5kZXIgdGhlIExpY2Vuc2UuhUUAtwAAADtJREFUOMtjVCtZ9p+BAsDEQCGgrQE3uyMZbnZHDmUvEAMYkaORkH9hQL10OY1cgC0W0G0c7rEwNL0AAJeCEpM4iWKGAAAAAElFTkSuQmCC";
+                        objImg.alt = "collapse";
+                        objTable.className = "page_details";
+                        var arrTable = document.getElementsByClassName("detail");
+                        for (var i=0; i<arrTable.length; i++) {
+                            arrTable[i].style.display = "none";
+                        }
+                    } 
+                };
+                function toggle_detail(detail_id) {
+                    var objTitle = document.getElementById("tdetail");
+                    var arrTable = document.getElementsByClassName("detail");
+                    for (var i=0; i<arrTable.length; i++) {
+                        var table = arrTable[i];
+                        if (table.id != detail_id) {
+                            table.style.display = "none";
+                        } else {
+                            if (table.style.display == "none" || table.style.display == "") {
+                                table.style.display = "table";
+                                objTitle.style.display = "block";
+                            } else {
+                                table.style.display = "none";
+                                objTitle.style.display = "none";
+                            }
+                        }
+                    }
+                };
+            </script></head>
+   <body>
+      <h1>Load Test Results</h1>
+      <hr size="1">
+      <h2>Summary</h2>
+      <table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+         <tr valign="top">
+            <th># Samples</th>
+            <th>Failures</th>
+            <th>Success Rate</th>
+            <th>Average Time</th>
+            <th>Min Time</th>
+            <th>Max Time</th>
+            <th>Median</th>
+            <th>90% Line</th>
+            <th>95% Line</th>
+            <th>99% Line</th>
+            <th>QPS</th>
+            <th>KB/Sec</th>
+         </tr>
+         <tr valign="top" class="">
+            <td align="center">1</td>
+            <td align="center">0</td>
+            <td align="center">100.00%</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">0.18 /s</td>
+            <td align="center">4.50</td>
+         </tr>
+      </table>
+      <hr size="1" width="95%" align="center">
+      <h2>Pages</h2>
+      <table align="center" class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+         <tr valign="top">
+            <th>URL</th>
+            <th># Samples</th>
+            <th>Failures</th>
+            <th>Success Rate</th>
+            <th>Average Time</th>
+            <th>Min Time</th>
+            <th>Max Time</th>
+            <th>Median</th>
+            <th>90% Line</th>
+            <th>95% Line</th>
+            <th>99% Line</th>
+            <th>QPS</th>
+            <th>KB/Sec</th>
+            <th></th>
+         </tr>
+         <tr valign="top" class="">
+            <td>start</td>
+            <td align="center">1</td>
+            <td align="center">0</td>
+            <td align="center">100.00%</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">5602 ms</td>
+            <td align="center">0.18 /s</td>
+            <td align="center">4.50</td>
+            <td align="center"><a href="javascript:toggle_details('page_details_1')"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEALQADQANam36RQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wDDQ0cLbeSRoIAAAL5dEVYdENvbW1lbnQATGljZW5zZWQgdG8gdGhlIEFwYWNoZSBTb2Z0d2FyZSBGb3VuZGF0aW9uIChBU0YpIHVuZGVyIG9uZSBvciBtb3JlCmNvbnRyaWJ1dG9yIGxpY2Vuc2UgYWdyZWVtZW50cy4gIFNlZSB0aGUgTk9USUNFIGZpbGUgZGlzdHJpYnV0ZWQgd2l0aAp0aGlzIHdvcmsgZm9yIGFkZGl0aW9uYWwgaW5mb3JtYXRpb24gcmVnYXJkaW5nIGNvcHlyaWdodCBvd25lcnNoaXAuClRoZSBBU0YgbGljZW5zZXMgdGhpcyBmaWxlIHRvIFlvdSB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wCih0aGUgIkxpY2Vuc2UiKTsgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoCnRoZSBMaWNlbnNlLiAgWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0CgogICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKClVubGVzcyByZXF1aXJlZCBieSBhcHBsaWNhYmxlIGxhdyBvciBhZ3JlZWQgdG8gaW4gd3JpdGluZywgc29mdHdhcmUKZGlzdHJpYnV0ZWQgdW5kZXIgdGhlIExpY2Vuc2UgaXMgZGlzdHJpYnV0ZWQgb24gYW4gIkFTIElTIiBCQVNJUywKV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuClNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmQKbGltaXRhdGlvbnMgdW5kZXIgdGhlIExpY2Vuc2UuhUUAtwAAADtJREFUOMtjVCtZ9p+BAsDEQCGgrQE3uyMZbnZHDmUvEAMYkaORkH9hQL10OY1cgC0W0G0c7rEwNL0AAJeCEpM4iWKGAAAAAElFTkSuQmCC" alt="collapse" id="page_details_1_image"></a></td>
+         </tr>
+         <tr class="page_details" id="page_details_1">
+            <td colspan="14" bgcolor="#FF0000">
+               <div align="center"><b>Details for Page "start"</b><table bordercolor="#000000" bgcolor="#2674A6" border="0" cellpadding="1" cellspacing="1" width="95%">
+                     <tr>
+                        <th>Thread</th>
+                        <th>Iteration</th>
+                        <th>Time</th>
+                        <th>Bytes</th>
+                        <th>Success</th>
+                     </tr>
+                     <tr>
+                        <td align="center"><a href="javascript:toggle_detail('start_detail_1')">线程组 1-1</a></td>
+                        <td align="center">1</td>
+                        <td align="center">5602 ms</td>
+                        <td align="center">25790</td>
+                        <td align="center">true</td>
+                     </tr>
+                  </table>
+               </div>
+            </td>
+         </tr>
+      </table>
+      <hr size="1" width="95%" align="center">
+      <h2 id="tdetail">Details</h2>
+      <table align="center" class="details detail" border="0" cellpadding="5" cellspacing="2" width="95%" id="start_detail_1">
+         <tr valign="top">
+            <th colspan="2">start # 线程组 1-1</th>
+         </tr>
+         <tr>
+            <td class="key">Time</td>
+            <td>5602 ms</td>
+         </tr>
+         <tr>
+            <td class="key">Latency</td>
+            <td>0 ms</td>
+         </tr>
+         <tr>
+            <td class="key">Bytes</td>
+            <td>25790</td>
+         </tr>
+         <tr>
+            <td class="key">Sample Count</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="key">Error Count</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="key">Response Code</td>
+            <td>200</td>
+         </tr>
+         <tr>
+            <td class="key">Response Message</td>
+            <td>Number of samples in transaction : 4, number of failing samples : 0</td>
+         </tr>
+         <tr>
+            <td class="key">Failure Message</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="key">Method/Url</td>
+            <td> </td>
+         </tr>
+         <tr>
+            <td class="key">Query String</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="key">Cookies</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="key">Request Headers</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="key">Response Headers</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="key">Response Data</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="key">Response File</td>
+            <td></td>
+         </tr>
+      </table>
+   </body>
+</html>

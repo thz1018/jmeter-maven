@@ -1,432 +1,584 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="3533" it="0" lt="107" ct="77" ts="1505295054529" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="3969486" sby="8823" ng="2" na="2">
+<httpSample t="4128" it="0" lt="123" ct="91" ts="1505369983275" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="3969486" sby="8823" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
-  <httpSample t="108" it="0" lt="107" ct="77" ts="1505295054529" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-1" dt="text" by="5480" sby="137" ng="2" na="2"/>
-  <httpSample t="14" it="0" lt="14" ct="0" ts="1505295054729" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="2530" sby="153" ng="2" na="2"/>
-  <httpSample t="106" it="0" lt="27" ct="10" ts="1505295054729" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="146212" sby="164" ng="2" na="2"/>
-  <httpSample t="59" it="0" lt="27" ct="9" ts="1505295054729" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="32276" sby="158" ng="2" na="2"/>
-  <httpSample t="31" it="0" lt="31" ct="9" ts="1505295054729" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="1798" sby="172" ng="2" na="2"/>
-  <httpSample t="42" it="0" lt="28" ct="7" ts="1505295054731" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="14699" sby="159" ng="2" na="2"/>
-  <httpSample t="57" it="0" lt="25" ct="7" ts="1505295054731" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="31624" sby="150" ng="2" na="2"/>
-  <httpSample t="20" it="0" lt="19" ct="9" ts="1505295055393" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="5010" sby="141" ng="2" na="2"/>
-  <httpSample t="60" it="0" lt="13" ct="0" ts="1505295055561" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="91394" sby="142" ng="2" na="2"/>
-  <httpSample t="26" it="0" lt="26" ct="14" ts="1505295055564" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-1" dt="bin" by="4240" sby="142" ng="2" na="2"/>
-  <httpSample t="347" it="0" lt="11" ct="0" ts="1505295055591" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1142005" sby="149" ng="2" na="2"/>
-  <httpSample t="46" it="0" lt="23" ct="0" ts="1505295055797" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28898" sby="166" ng="2" na="2"/>
-  <httpSample t="368" it="0" lt="74" ct="29" ts="1505295055814" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97433" sby="148" ng="2" na="2"/>
-  <httpSample t="360" it="0" lt="53" ct="0" ts="1505295055844" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="253885" sby="157" ng="2" na="2"/>
-  <httpSample t="125" it="0" lt="76" ct="37" ts="1505295055851" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21417" sby="149" ng="2" na="2"/>
-  <httpSample t="379" it="0" lt="83" ct="35" ts="1505295055855" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="124117" sby="153" ng="2" na="2"/>
-  <httpSample t="335" it="0" lt="113" ct="44" ts="1505295055880" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37310" sby="171" ng="2" na="2"/>
-  <httpSample t="45" it="0" lt="42" ct="0" ts="1505295055939" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="30330" sby="171" ng="2" na="2"/>
-  <httpSample t="159" it="0" lt="159" ct="0" ts="1505295055977" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2043" sby="138" ng="2" na="2"/>
-  <httpSample t="101" it="0" lt="67" ct="0" ts="1505295055985" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="64192" sby="148" ng="2" na="2"/>
-  <httpSample t="91" it="0" lt="89" ct="0" ts="1505295056086" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21846" sby="145" ng="2" na="2"/>
-  <httpSample t="1774" it="0" lt="51" ct="0" ts="1505295056137" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="619398" sby="145" ng="2" na="2"/>
-  <httpSample t="46" it="0" lt="46" ct="0" ts="1505295056178" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15510" sby="145" ng="2" na="2"/>
-  <httpSample t="45" it="0" lt="44" ct="0" ts="1505295056183" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="5677" sby="145" ng="2" na="2"/>
-  <httpSample t="109" it="0" lt="45" ct="0" ts="1505295056204" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15525" sby="145" ng="2" na="2"/>
-  <httpSample t="48" it="0" lt="48" ct="0" ts="1505295056215" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8124" sby="163" ng="2" na="2"/>
-  <httpSample t="48" it="0" lt="48" ct="0" ts="1505295056224" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="7092" sby="171" ng="2" na="2"/>
-  <httpSample t="823" it="0" lt="50" ct="0" ts="1505295056228" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="237885" sby="153" ng="2" na="2"/>
-  <httpSample t="422" it="0" lt="62" ct="0" ts="1505295056235" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="127349" sby="155" ng="2" na="2"/>
-  <httpSample t="97" it="0" lt="97" ct="0" ts="1505295056263" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2658" sby="147" ng="2" na="2"/>
-  <httpSample t="111" it="0" lt="110" ct="0" ts="1505295056273" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="25284" sby="136" ng="2" na="2"/>
-  <httpSample t="353" it="0" lt="158" ct="0" ts="1505295056314" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97694" sby="141" ng="2" na="2"/>
-  <httpSample t="328" it="0" lt="221" ct="0" ts="1505295056360" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24914" sby="143" ng="2" na="2"/>
-  <httpSample t="235" it="0" lt="235" ct="0" ts="1505295056384" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="4692" sby="140" ng="2" na="2"/>
-  <httpSample t="86" it="0" lt="86" ct="0" ts="1505295056620" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1310" sby="150" ng="2" na="2"/>
-  <httpSample t="241" it="0" lt="60" ct="0" ts="1505295056658" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28585" sby="162" ng="2" na="2"/>
-  <httpSample t="100" it="0" lt="99" ct="0" ts="1505295056667" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2760" sby="159" ng="2" na="2"/>
-  <httpSample t="116" it="0" lt="116" ct="0" ts="1505295056689" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2273" sby="164" ng="2" na="2"/>
-  <httpSample t="188" it="0" lt="188" ct="0" ts="1505295056706" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="16633" sby="158" ng="2" na="2"/>
-  <httpSample t="174" it="0" lt="174" ct="0" ts="1505295056767" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2107" sby="176" ng="2" na="2"/>
-  <httpSample t="214" it="0" lt="213" ct="0" ts="1505295056806" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6173" sby="167" ng="2" na="2"/>
-  <httpSample t="117" it="0" lt="117" ct="0" ts="1505295056894" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6669" sby="170" ng="2" na="2"/>
-  <httpSample t="120" it="0" lt="120" ct="0" ts="1505295056900" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8415" sby="166" ng="2" na="2"/>
-  <httpSample t="90" it="0" lt="90" ct="0" ts="1505295056941" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="11062" sby="187" ng="2" na="2"/>
-  <httpSample t="425" it="0" lt="139" ct="0" ts="1505295057011" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="45749" sby="181" ng="2" na="2"/>
-  <httpSample t="908" it="0" lt="427" ct="172" ts="1505295057020" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="67496" sby="184" ng="2" na="2"/>
-  <httpSample t="424" it="0" lt="172" ct="0" ts="1505295057020" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24420" sby="190" ng="2" na="2"/>
-  <httpSample t="423" it="0" lt="197" ct="0" ts="1505295057033" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37023" sby="189" ng="2" na="2"/>
-  <httpSample t="250" it="0" lt="249" ct="0" ts="1505295057052" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8866" sby="185" ng="2" na="2"/>
-  <httpSample t="405" it="0" lt="191" ct="0" ts="1505295057302" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="31007" sby="185" ng="2" na="2"/>
-  <httpSample t="344" it="0" lt="184" ct="0" ts="1505295057436" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="87594" sby="179" ng="2" na="2"/>
-  <httpSample t="343" it="0" lt="220" ct="0" ts="1505295057445" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="62609" sby="186" ng="2" na="2"/>
-  <httpSample t="606" it="0" lt="334" ct="213" ts="1505295057456" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="149695" sby="184" ng="2" na="2"/>
-  <httpSample t="117" it="0" lt="114" ct="0" ts="1505295057708" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="14590" sby="186" ng="2" na="2"/>
-  <httpSample t="145" it="0" lt="145" ct="102" ts="1505295057780" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="3909" sby="173" ng="2" na="2"/>
+  <httpSample t="123" it="0" lt="123" ct="91" ts="1505369983275" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-1" dt="text" by="5480" sby="137" ng="2" na="2"/>
+  <httpSample t="14" it="0" lt="14" ct="0" ts="1505369983492" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="2530" sby="153" ng="2" na="2"/>
+  <httpSample t="94" it="0" lt="21" ct="10" ts="1505369983494" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="146212" sby="164" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="24" ct="10" ts="1505369983495" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="32276" sby="158" ng="2" na="2"/>
+  <httpSample t="26" it="0" lt="26" ct="10" ts="1505369983495" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="1798" sby="172" ng="2" na="2"/>
+  <httpSample t="31" it="0" lt="23" ct="10" ts="1505369983494" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="14699" sby="159" ng="2" na="2"/>
+  <httpSample t="46" it="0" lt="27" ct="12" ts="1505369983494" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="31624" sby="150" ng="2" na="2"/>
+  <httpSample t="33" it="0" lt="33" ct="15" ts="1505369984354" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="5010" sby="141" ng="2" na="2"/>
+  <httpSample t="129" it="0" lt="31" ct="12" ts="1505369984354" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="91394" sby="142" ng="2" na="2"/>
+  <httpSample t="14" it="0" lt="14" ct="0" ts="1505369984389" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-1" dt="bin" by="4240" sby="142" ng="2" na="2"/>
+  <httpSample t="455" it="0" lt="13" ct="0" ts="1505369984403" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1142005" sby="149" ng="2" na="2"/>
+  <httpSample t="37" it="0" lt="20" ct="0" ts="1505369984684" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28898" sby="166" ng="2" na="2"/>
+  <httpSample t="451" it="0" lt="42" ct="20" ts="1505369984701" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97433" sby="148" ng="2" na="2"/>
+  <httpSample t="1081" it="0" lt="69" ct="22" ts="1505369984705" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="253885" sby="157" ng="2" na="2"/>
+  <httpSample t="22" it="0" lt="21" ct="0" ts="1505369984722" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21417" sby="149" ng="2" na="2"/>
+  <httpSample t="899" it="0" lt="153" ct="96" ts="1505369984740" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="124117" sby="153" ng="2" na="2"/>
+  <httpSample t="148" it="0" lt="92" ct="0" ts="1505369984744" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37310" sby="171" ng="2" na="2"/>
+  <httpSample t="245" it="0" lt="139" ct="79" ts="1505369984766" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="30330" sby="171" ng="2" na="2"/>
+  <httpSample t="49" it="0" lt="49" ct="0" ts="1505369984858" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2043" sby="138" ng="2" na="2"/>
+  <httpSample t="118" it="0" lt="25" ct="0" ts="1505369984893" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="64192" sby="148" ng="2" na="2"/>
+  <httpSample t="30" it="0" lt="30" ct="0" ts="1505369984907" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21846" sby="145" ng="2" na="2"/>
+  <httpSample t="664" it="0" lt="102" ct="0" ts="1505369984938" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="619398" sby="145" ng="2" na="2"/>
+  <httpSample t="320" it="0" lt="141" ct="0" ts="1505369985011" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15510" sby="145" ng="2" na="2"/>
+  <httpSample t="159" it="0" lt="159" ct="0" ts="1505369985011" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="5677" sby="145" ng="2" na="2"/>
+  <httpSample t="357" it="0" lt="179" ct="0" ts="1505369985152" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15525" sby="145" ng="2" na="2"/>
+  <httpSample t="174" it="0" lt="174" ct="0" ts="1505369985170" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8124" sby="163" ng="2" na="2"/>
+  <httpSample t="185" it="0" lt="185" ct="0" ts="1505369985331" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="7092" sby="171" ng="2" na="2"/>
+  <httpSample t="1291" it="0" lt="182" ct="0" ts="1505369985345" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="237885" sby="153" ng="2" na="2"/>
+  <httpSample t="615" it="0" lt="192" ct="0" ts="1505369985510" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="127349" sby="155" ng="2" na="2"/>
+  <httpSample t="184" it="0" lt="184" ct="0" ts="1505369985516" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2658" sby="147" ng="2" na="2"/>
+  <httpSample t="299" it="0" lt="169" ct="0" ts="1505369985602" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="25284" sby="136" ng="2" na="2"/>
+  <httpSample t="424" it="0" lt="181" ct="0" ts="1505369985640" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97694" sby="141" ng="2" na="2"/>
+  <httpSample t="341" it="0" lt="191" ct="0" ts="1505369985701" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24914" sby="143" ng="2" na="2"/>
+  <httpSample t="147" it="0" lt="147" ct="0" ts="1505369985786" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="4692" sby="140" ng="2" na="2"/>
+  <httpSample t="140" it="0" lt="140" ct="0" ts="1505369985902" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1310" sby="150" ng="2" na="2"/>
+  <httpSample t="263" it="0" lt="114" ct="0" ts="1505369985933" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28585" sby="162" ng="2" na="2"/>
+  <httpSample t="155" it="0" lt="155" ct="0" ts="1505369986043" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2760" sby="159" ng="2" na="2"/>
+  <httpSample t="157" it="0" lt="157" ct="0" ts="1505369986043" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2273" sby="164" ng="2" na="2"/>
+  <httpSample t="173" it="0" lt="156" ct="0" ts="1505369986065" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="16633" sby="158" ng="2" na="2"/>
+  <httpSample t="172" it="0" lt="172" ct="0" ts="1505369986126" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2107" sby="176" ng="2" na="2"/>
+  <httpSample t="182" it="0" lt="182" ct="0" ts="1505369986197" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6173" sby="167" ng="2" na="2"/>
+  <httpSample t="181" it="0" lt="181" ct="0" ts="1505369986198" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6669" sby="170" ng="2" na="2"/>
+  <httpSample t="182" it="0" lt="182" ct="0" ts="1505369986200" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8415" sby="166" ng="2" na="2"/>
+  <httpSample t="334" it="0" lt="165" ct="0" ts="1505369986239" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="11062" sby="187" ng="2" na="2"/>
+  <httpSample t="338" it="0" lt="180" ct="0" ts="1505369986298" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="45749" sby="181" ng="2" na="2"/>
+  <httpSample t="701" it="0" lt="307" ct="178" ts="1505369986380" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="67496" sby="184" ng="2" na="2"/>
+  <httpSample t="484" it="0" lt="334" ct="181" ts="1505369986380" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24420" sby="190" ng="2" na="2"/>
+  <httpSample t="614" it="0" lt="335" ct="179" ts="1505369986382" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37023" sby="189" ng="2" na="2"/>
+  <httpSample t="151" it="0" lt="151" ct="0" ts="1505369986573" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8866" sby="185" ng="2" na="2"/>
+  <httpSample t="325" it="0" lt="160" ct="0" ts="1505369986636" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="31007" sby="185" ng="2" na="2"/>
+  <httpSample t="548" it="0" lt="337" ct="155" ts="1505369986637" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="87594" sby="179" ng="2" na="2"/>
+  <httpSample t="278" it="0" lt="156" ct="0" ts="1505369986724" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="62609" sby="186" ng="2" na="2"/>
+  <httpSample t="539" it="0" lt="217" ct="133" ts="1505369986864" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="149695" sby="184" ng="2" na="2"/>
+  <httpSample t="179" it="0" lt="164" ct="108" ts="1505369986961" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="14590" sby="186" ng="2" na="2"/>
+  <httpSample t="86" it="0" lt="86" ct="0" ts="1505369986997" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="3909" sby="173" ng="2" na="2"/>
 </httpSample>
-<httpSample t="3192" it="0" lt="18" ct="8" ts="1505295054936" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="3969486" sby="8823" ng="2" na="2">
+<httpSample t="3758" it="0" lt="18" ct="8" ts="1505369983670" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="3969486" sby="8823" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
-  <httpSample t="18" it="0" lt="18" ct="8" ts="1505295054936" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-2" dt="text" by="5480" sby="137" ng="2" na="2"/>
-  <httpSample t="12" it="0" lt="12" ct="0" ts="1505295054973" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="2530" sby="153" ng="2" na="2"/>
-  <httpSample t="104" it="0" lt="25" ct="9" ts="1505295054974" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="146212" sby="164" ng="2" na="2"/>
-  <httpSample t="49" it="0" lt="25" ct="9" ts="1505295054973" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="32276" sby="158" ng="2" na="2"/>
-  <httpSample t="28" it="0" lt="28" ct="10" ts="1505295054975" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="1798" sby="172" ng="2" na="2"/>
-  <httpSample t="29" it="0" lt="19" ct="7" ts="1505295054976" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="14699" sby="159" ng="2" na="2"/>
-  <httpSample t="44" it="0" lt="19" ct="8" ts="1505295054974" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="31624" sby="150" ng="2" na="2"/>
-  <httpSample t="26" it="0" lt="26" ct="14" ts="1505295055564" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="5010" sby="141" ng="2" na="2"/>
-  <httpSample t="86" it="0" lt="14" ct="0" ts="1505295055591" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="91394" sby="142" ng="2" na="2"/>
-  <httpSample t="23" it="0" lt="23" ct="0" ts="1505295055797" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-2" dt="bin" by="4240" sby="142" ng="2" na="2"/>
-  <httpSample t="1773" it="0" lt="57" ct="27" ts="1505295055814" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1142005" sby="149" ng="2" na="2"/>
-  <httpSample t="67" it="0" lt="34" ct="0" ts="1505295055821" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28898" sby="166" ng="2" na="2"/>
-  <httpSample t="368" it="0" lt="72" ct="36" ts="1505295055852" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97433" sby="148" ng="2" na="2"/>
-  <httpSample t="803" it="0" lt="82" ct="35" ts="1505295055855" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="253885" sby="157" ng="2" na="2"/>
-  <httpSample t="106" it="0" lt="75" ct="36" ts="1505295055880" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21417" sby="149" ng="2" na="2"/>
-  <httpSample t="467" it="0" lt="84" ct="38" ts="1505295055880" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="124117" sby="153" ng="2" na="2"/>
-  <httpSample t="89" it="0" lt="45" ct="0" ts="1505295055889" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37310" sby="171" ng="2" na="2"/>
-  <httpSample t="189" it="0" lt="71" ct="0" ts="1505295055979" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="30330" sby="171" ng="2" na="2"/>
-  <httpSample t="157" it="0" lt="157" ct="0" ts="1505295055986" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2043" sby="138" ng="2" na="2"/>
-  <httpSample t="418" it="0" lt="74" ct="0" ts="1505295056144" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="64192" sby="148" ng="2" na="2"/>
-  <httpSample t="87" it="0" lt="46" ct="0" ts="1505295056168" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21846" sby="145" ng="2" na="2"/>
-  <httpSample t="1673" it="0" lt="42" ct="0" ts="1505295056221" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="619398" sby="145" ng="2" na="2"/>
-  <httpSample t="306" it="0" lt="94" ct="0" ts="1505295056256" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15510" sby="145" ng="2" na="2"/>
-  <httpSample t="216" it="0" lt="215" ct="0" ts="1505295056347" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="5677" sby="145" ng="2" na="2"/>
-  <httpSample t="384" it="0" lt="224" ct="116" ts="1505295056563" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15525" sby="145" ng="2" na="2"/>
-  <httpSample t="132" it="0" lt="132" ct="0" ts="1505295056563" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8124" sby="163" ng="2" na="2"/>
-  <httpSample t="239" it="0" lt="239" ct="115" ts="1505295056564" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="7092" sby="171" ng="2" na="2"/>
-  <httpSample t="571" it="0" lt="57" ct="0" ts="1505295056659" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="237885" sby="153" ng="2" na="2"/>
-  <httpSample t="795" it="0" lt="123" ct="0" ts="1505295056695" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="127349" sby="155" ng="2" na="2"/>
-  <httpSample t="214" it="0" lt="214" ct="0" ts="1505295056803" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2658" sby="147" ng="2" na="2"/>
-  <httpSample t="318" it="0" lt="92" ct="0" ts="1505295056947" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="25284" sby="136" ng="2" na="2"/>
-  <httpSample t="872" it="0" lt="162" ct="0" ts="1505295057018" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97694" sby="141" ng="2" na="2"/>
-  <httpSample t="439" it="0" lt="238" ct="0" ts="1505295057231" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24914" sby="143" ng="2" na="2"/>
-  <httpSample t="225" it="0" lt="224" ct="0" ts="1505295057266" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="4692" sby="140" ng="2" na="2"/>
-  <httpSample t="256" it="0" lt="256" ct="0" ts="1505295057491" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1310" sby="150" ng="2" na="2"/>
-  <httpSample t="364" it="0" lt="223" ct="0" ts="1505295057491" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28585" sby="162" ng="2" na="2"/>
-  <httpSample t="163" it="0" lt="162" ct="0" ts="1505295057587" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2760" sby="159" ng="2" na="2"/>
-  <httpSample t="149" it="0" lt="149" ct="0" ts="1505295057670" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2273" sby="164" ng="2" na="2"/>
-  <httpSample t="113" it="0" lt="111" ct="0" ts="1505295057747" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="16633" sby="158" ng="2" na="2"/>
-  <httpSample t="115" it="0" lt="115" ct="0" ts="1505295057750" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2107" sby="176" ng="2" na="2"/>
-  <httpSample t="74" it="0" lt="74" ct="0" ts="1505295057819" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6173" sby="167" ng="2" na="2"/>
-  <httpSample t="73" it="0" lt="72" ct="52" ts="1505295057855" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6669" sby="170" ng="2" na="2"/>
-  <httpSample t="64" it="0" lt="47" ct="0" ts="1505295057861" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8415" sby="166" ng="2" na="2"/>
-  <httpSample t="84" it="0" lt="63" ct="45" ts="1505295057865" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="11062" sby="187" ng="2" na="2"/>
-  <httpSample t="114" it="0" lt="59" ct="30" ts="1505295057891" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="45749" sby="181" ng="2" na="2"/>
-  <httpSample t="143" it="0" lt="59" ct="31" ts="1505295057893" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="67496" sby="184" ng="2" na="2"/>
-  <httpSample t="86" it="0" lt="58" ct="31" ts="1505295057894" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24420" sby="190" ng="2" na="2"/>
-  <httpSample t="110" it="0" lt="55" ct="25" ts="1505295057925" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37023" sby="189" ng="2" na="2"/>
-  <httpSample t="22" it="0" lt="22" ct="0" ts="1505295057928" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8866" sby="185" ng="2" na="2"/>
-  <httpSample t="98" it="0" lt="53" ct="23" ts="1505295057952" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="31007" sby="185" ng="2" na="2"/>
-  <httpSample t="116" it="0" lt="28" ct="0" ts="1505295057951" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="87594" sby="179" ng="2" na="2"/>
-  <httpSample t="106" it="0" lt="26" ct="0" ts="1505295057980" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="62609" sby="186" ng="2" na="2"/>
-  <httpSample t="122" it="0" lt="23" ct="0" ts="1505295058006" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="149695" sby="184" ng="2" na="2"/>
-  <httpSample t="31" it="0" lt="30" ct="0" ts="1505295058036" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="14590" sby="186" ng="2" na="2"/>
-  <httpSample t="53" it="0" lt="53" ct="26" ts="1505295058036" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="3909" sby="173" ng="2" na="2"/>
+  <httpSample t="19" it="0" lt="18" ct="8" ts="1505369983670" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-2" dt="text" by="5480" sby="137" ng="2" na="2"/>
+  <httpSample t="16" it="0" lt="16" ct="0" ts="1505369983709" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="2530" sby="153" ng="2" na="2"/>
+  <httpSample t="103" it="0" lt="24" ct="9" ts="1505369983712" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="146212" sby="164" ng="2" na="2"/>
+  <httpSample t="40" it="0" lt="21" ct="9" ts="1505369983710" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="32276" sby="158" ng="2" na="2"/>
+  <httpSample t="25" it="0" lt="25" ct="8" ts="1505369983713" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="1798" sby="172" ng="2" na="2"/>
+  <httpSample t="36" it="0" lt="25" ct="10" ts="1505369983713" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="14699" sby="159" ng="2" na="2"/>
+  <httpSample t="49" it="0" lt="24" ct="9" ts="1505369983712" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="31624" sby="150" ng="2" na="2"/>
+  <httpSample t="32" it="0" lt="32" ct="19" ts="1505369984341" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="5010" sby="141" ng="2" na="2"/>
+  <httpSample t="122" it="0" lt="16" ct="0" ts="1505369984388" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="91394" sby="142" ng="2" na="2"/>
+  <httpSample t="23" it="0" lt="23" ct="0" ts="1505369984684" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-2" dt="bin" by="4240" sby="142" ng="2" na="2"/>
+  <httpSample t="2236" it="0" lt="43" ct="21" ts="1505369984700" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1142005" sby="149" ng="2" na="2"/>
+  <httpSample t="66" it="0" lt="19" ct="0" ts="1505369984708" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28898" sby="166" ng="2" na="2"/>
+  <httpSample t="677" it="0" lt="139" ct="76" ts="1505369984740" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97433" sby="148" ng="2" na="2"/>
+  <httpSample t="1305" it="0" lt="153" ct="96" ts="1505369984740" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="253885" sby="157" ng="2" na="2"/>
+  <httpSample t="205" it="0" lt="134" ct="77" ts="1505369984766" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21417" sby="149" ng="2" na="2"/>
+  <httpSample t="750" it="0" lt="134" ct="79" ts="1505369984766" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="124117" sby="153" ng="2" na="2"/>
+  <httpSample t="136" it="0" lt="102" ct="0" ts="1505369984774" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37310" sby="171" ng="2" na="2"/>
+  <httpSample t="203" it="0" lt="64" ct="0" ts="1505369984910" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="30330" sby="171" ng="2" na="2"/>
+  <httpSample t="146" it="0" lt="146" ct="0" ts="1505369984971" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2043" sby="138" ng="2" na="2"/>
+  <httpSample t="366" it="0" lt="162" ct="0" ts="1505369985113" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="64192" sby="148" ng="2" na="2"/>
+  <httpSample t="337" it="0" lt="157" ct="0" ts="1505369985118" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21846" sby="145" ng="2" na="2"/>
+  <httpSample t="1655" it="0" lt="185" ct="0" ts="1505369985417" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="619398" sby="145" ng="2" na="2"/>
+  <httpSample t="330" it="0" lt="186" ct="0" ts="1505369985456" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15510" sby="145" ng="2" na="2"/>
+  <httpSample t="188" it="0" lt="188" ct="0" ts="1505369985479" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="5677" sby="145" ng="2" na="2"/>
+  <httpSample t="348" it="0" lt="186" ct="0" ts="1505369985516" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15525" sby="145" ng="2" na="2"/>
+  <httpSample t="192" it="0" lt="192" ct="0" ts="1505369985667" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8124" sby="163" ng="2" na="2"/>
+  <httpSample t="147" it="0" lt="147" ct="0" ts="1505369985786" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="7092" sby="171" ng="2" na="2"/>
+  <httpSample t="765" it="0" lt="108" ct="0" ts="1505369985860" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="237885" sby="153" ng="2" na="2"/>
+  <httpSample t="497" it="0" lt="129" ct="0" ts="1505369985865" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="127349" sby="155" ng="2" na="2"/>
+  <httpSample t="132" it="0" lt="132" ct="0" ts="1505369985933" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2658" sby="147" ng="2" na="2"/>
+  <httpSample t="321" it="0" lt="156" ct="0" ts="1505369986045" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="25284" sby="136" ng="2" na="2"/>
+  <httpSample t="761" it="0" lt="139" ct="0" ts="1505369986065" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97694" sby="141" ng="2" na="2"/>
+  <httpSample t="316" it="0" lt="175" ct="0" ts="1505369986362" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24914" sby="143" ng="2" na="2"/>
+  <httpSample t="188" it="0" lt="188" ct="0" ts="1505369986366" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="4692" sby="140" ng="2" na="2"/>
+  <httpSample t="168" it="0" lt="168" ct="0" ts="1505369986555" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1310" sby="150" ng="2" na="2"/>
+  <httpSample t="412" it="0" lt="326" ct="134" ts="1505369986626" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28585" sby="162" ng="2" na="2"/>
+  <httpSample t="148" it="0" lt="148" ct="0" ts="1505369986678" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2760" sby="159" ng="2" na="2"/>
+  <httpSample t="172" it="0" lt="172" ct="0" ts="1505369986724" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2273" sby="164" ng="2" na="2"/>
+  <httpSample t="308" it="0" lt="251" ct="148" ts="1505369986826" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="16633" sby="158" ng="2" na="2"/>
+  <httpSample t="254" it="0" lt="254" ct="147" ts="1505369986827" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2107" sby="176" ng="2" na="2"/>
+  <httpSample t="188" it="0" lt="188" ct="106" ts="1505369986896" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6173" sby="167" ng="2" na="2"/>
+  <httpSample t="148" it="0" lt="148" ct="95" ts="1505369986936" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6669" sby="170" ng="2" na="2"/>
+  <httpSample t="96" it="0" lt="67" ct="0" ts="1505369987038" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8415" sby="166" ng="2" na="2"/>
+  <httpSample t="97" it="0" lt="71" ct="55" ts="1505369987072" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="11062" sby="187" ng="2" na="2"/>
+  <httpSample t="212" it="0" lt="77" ct="53" ts="1505369987081" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="45749" sby="181" ng="2" na="2"/>
+  <httpSample t="243" it="0" lt="74" ct="50" ts="1505369987084" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="67496" sby="184" ng="2" na="2"/>
+  <httpSample t="85" it="0" lt="51" ct="0" ts="1505369987084" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24420" sby="190" ng="2" na="2"/>
+  <httpSample t="117" it="0" lt="23" ct="0" ts="1505369987135" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37023" sby="189" ng="2" na="2"/>
+  <httpSample t="22" it="0" lt="22" ct="0" ts="1505369987136" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8866" sby="185" ng="2" na="2"/>
+  <httpSample t="106" it="0" lt="60" ct="0" ts="1505369987159" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="31007" sby="185" ng="2" na="2"/>
+  <httpSample t="221" it="0" lt="51" ct="0" ts="1505369987170" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="87594" sby="179" ng="2" na="2"/>
+  <httpSample t="197" it="0" lt="51" ct="0" ts="1505369987170" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="62609" sby="186" ng="2" na="2"/>
+  <httpSample t="176" it="0" lt="38" ct="0" ts="1505369987252" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="149695" sby="184" ng="2" na="2"/>
+  <httpSample t="62" it="0" lt="58" ct="0" ts="1505369987265" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="14590" sby="186" ng="2" na="2"/>
+  <httpSample t="72" it="0" lt="72" ct="0" ts="1505369987293" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="3909" sby="173" ng="2" na="2"/>
 </httpSample>
-<httpSample t="39" it="0" lt="38" ct="16" ts="1505295058106" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="4604" sby="143" ng="2" na="2">
-  <assertionResult>
-    <name>响应断言</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-</httpSample>
-<httpSample t="60" it="0" lt="52" ct="13" ts="1505295058133" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="3531" sby="143" ng="2" na="2">
+<httpSample t="28" it="0" lt="28" ct="11" ts="1505369987434" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="5116" sby="143" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
 </httpSample>
-<httpSample t="166" it="0" lt="135" ct="0" ts="1505295058207" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="45532" sby="320" ng="2" na="2">
+<httpSample t="29" it="0" lt="28" ct="11" ts="1505369987426" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="4119" sby="143" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
 </httpSample>
-<httpSample t="254" it="0" lt="172" ct="0" ts="1505295058207" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="45532" sby="320" ng="2" na="2">
+<httpSample t="218" it="0" lt="194" ct="0" ts="1505369987517" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="45532" sby="320" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
 </httpSample>
-<httpSample t="2109" it="0" lt="15" ct="0" ts="1505295058378" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="3969486" sby="8823" ng="2" na="2">
-  <assertionResult>
-    <name>响应断言</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-  <httpSample t="15" it="0" lt="15" ct="0" ts="1505295058378" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-2" dt="text" by="5480" sby="137" ng="2" na="2"/>
-  <httpSample t="51" it="0" lt="51" ct="0" ts="1505295058427" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="2530" sby="153" ng="2" na="2"/>
-  <httpSample t="256" it="0" lt="62" ct="45" ts="1505295058432" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="146212" sby="164" ng="2" na="2"/>
-  <httpSample t="99" it="0" lt="59" ct="43" ts="1505295058433" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="32276" sby="158" ng="2" na="2"/>
-  <httpSample t="66" it="0" lt="66" ct="47" ts="1505295058432" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="1798" sby="172" ng="2" na="2"/>
-  <httpSample t="81" it="0" lt="60" ct="43" ts="1505295058431" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="14699" sby="159" ng="2" na="2"/>
-  <httpSample t="127" it="0" lt="58" ct="45" ts="1505295058429" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="31624" sby="150" ng="2" na="2"/>
-  <httpSample t="19" it="0" lt="19" ct="0" ts="1505295058479" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="5010" sby="141" ng="2" na="2"/>
-  <httpSample t="178" it="0" lt="47" ct="0" ts="1505295058499" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="91394" sby="142" ng="2" na="2"/>
-  <httpSample t="59" it="0" lt="59" ct="0" ts="1505295058499" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-2" dt="bin" by="4240" sby="142" ng="2" na="2"/>
-  <httpSample t="1279" it="0" lt="22" ct="0" ts="1505295058513" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1142005" sby="149" ng="2" na="2"/>
-  <httpSample t="99" it="0" lt="37" ct="0" ts="1505295058533" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28898" sby="166" ng="2" na="2"/>
-  <httpSample t="361" it="0" lt="66" ct="33" ts="1505295058560" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97433" sby="148" ng="2" na="2"/>
-  <httpSample t="674" it="0" lt="69" ct="35" ts="1505295058558" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="253885" sby="157" ng="2" na="2"/>
-  <httpSample t="101" it="0" lt="36" ct="0" ts="1505295058633" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21417" sby="149" ng="2" na="2"/>
-  <httpSample t="260" it="0" lt="53" ct="0" ts="1505295058678" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="124117" sby="153" ng="2" na="2"/>
-  <httpSample t="201" it="0" lt="60" ct="0" ts="1505295058689" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37310" sby="171" ng="2" na="2"/>
-  <httpSample t="155" it="0" lt="75" ct="0" ts="1505295058735" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="30330" sby="171" ng="2" na="2"/>
-  <httpSample t="196" it="0" lt="196" ct="63" ts="1505295058890" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2043" sby="138" ng="2" na="2"/>
-  <httpSample t="501" it="0" lt="197" ct="62" ts="1505295058890" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="64192" sby="148" ng="2" na="2"/>
-  <httpSample t="171" it="0" lt="171" ct="0" ts="1505295058921" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21846" sby="145" ng="2" na="2"/>
-  <httpSample t="835" it="0" lt="147" ct="0" ts="1505295058939" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="619398" sby="145" ng="2" na="2"/>
-  <httpSample t="276" it="0" lt="157" ct="0" ts="1505295059087" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15510" sby="145" ng="2" na="2"/>
-  <httpSample t="158" it="0" lt="157" ct="0" ts="1505295059093" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="5677" sby="145" ng="2" na="2"/>
-  <httpSample t="211" it="0" lt="118" ct="0" ts="1505295059232" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15525" sby="145" ng="2" na="2"/>
-  <httpSample t="141" it="0" lt="141" ct="0" ts="1505295059251" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8124" sby="163" ng="2" na="2"/>
-  <httpSample t="119" it="0" lt="119" ct="0" ts="1505295059363" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="7092" sby="171" ng="2" na="2"/>
-  <httpSample t="869" it="0" lt="115" ct="0" ts="1505295059392" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="237885" sby="153" ng="2" na="2"/>
-  <httpSample t="600" it="0" lt="95" ct="0" ts="1505295059392" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="127349" sby="155" ng="2" na="2"/>
-  <httpSample t="106" it="0" lt="106" ct="0" ts="1505295059444" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2658" sby="147" ng="2" na="2"/>
-  <httpSample t="192" it="0" lt="87" ct="0" ts="1505295059484" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="25284" sby="136" ng="2" na="2"/>
-  <httpSample t="261" it="0" lt="96" ct="0" ts="1505295059549" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97694" sby="141" ng="2" na="2"/>
-  <httpSample t="252" it="0" lt="152" ct="0" ts="1505295059675" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24914" sby="143" ng="2" na="2"/>
-  <httpSample t="119" it="0" lt="119" ct="0" ts="1505295059772" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="4692" sby="140" ng="2" na="2"/>
-  <httpSample t="103" it="0" lt="103" ct="0" ts="1505295059790" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1310" sby="150" ng="2" na="2"/>
-  <httpSample t="163" it="0" lt="163" ct="0" ts="1505295059811" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28585" sby="162" ng="2" na="2"/>
-  <httpSample t="73" it="0" lt="73" ct="0" ts="1505295059891" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2760" sby="159" ng="2" na="2"/>
-  <httpSample t="75" it="0" lt="75" ct="0" ts="1505295059893" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2273" sby="164" ng="2" na="2"/>
-  <httpSample t="89" it="0" lt="81" ct="0" ts="1505295059928" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="16633" sby="158" ng="2" na="2"/>
-  <httpSample t="160" it="0" lt="159" ct="93" ts="1505295059965" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2107" sby="176" ng="2" na="2"/>
-  <httpSample t="97" it="0" lt="97" ct="0" ts="1505295059968" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6173" sby="167" ng="2" na="2"/>
-  <httpSample t="94" it="0" lt="94" ct="0" ts="1505295059974" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6669" sby="170" ng="2" na="2"/>
-  <httpSample t="191" it="0" lt="144" ct="89" ts="1505295059990" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8415" sby="166" ng="2" na="2"/>
-  <httpSample t="126" it="0" lt="73" ct="0" ts="1505295060017" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="11062" sby="187" ng="2" na="2"/>
-  <httpSample t="204" it="0" lt="99" ct="60" ts="1505295060065" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="45749" sby="181" ng="2" na="2"/>
-  <httpSample t="177" it="0" lt="61" ct="0" ts="1505295060068" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="67496" sby="184" ng="2" na="2"/>
-  <httpSample t="88" it="0" lt="49" ct="0" ts="1505295060125" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24420" sby="190" ng="2" na="2"/>
-  <httpSample t="116" it="0" lt="95" ct="0" ts="1505295060143" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37023" sby="189" ng="2" na="2"/>
-  <httpSample t="35" it="0" lt="35" ct="0" ts="1505295060181" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8866" sby="185" ng="2" na="2"/>
-  <httpSample t="123" it="0" lt="70" ct="41" ts="1505295060213" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="31007" sby="185" ng="2" na="2"/>
-  <httpSample t="120" it="0" lt="41" ct="0" ts="1505295060216" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="87594" sby="179" ng="2" na="2"/>
-  <httpSample t="67" it="0" lt="24" ct="0" ts="1505295060245" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="62609" sby="186" ng="2" na="2"/>
-  <httpSample t="226" it="0" lt="55" ct="28" ts="1505295060259" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="149695" sby="184" ng="2" na="2"/>
-  <httpSample t="28" it="0" lt="25" ct="0" ts="1505295060259" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="14590" sby="186" ng="2" na="2"/>
-  <httpSample t="20" it="0" lt="20" ct="0" ts="1505295060269" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="3909" sby="173" ng="2" na="2"/>
-</httpSample>
-<httpSample t="56" it="0" lt="56" ct="20" ts="1505295060498" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="4382" sby="143" ng="2" na="2">
+<httpSample t="220" it="0" lt="193" ct="0" ts="1505369987518" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="45532" sby="320" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
 </httpSample>
-<httpSample t="264" it="0" lt="235" ct="0" ts="1505295060557" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="45532" sby="320" ng="2" na="2">
+<httpSample t="1599" it="0" lt="15" ct="0" ts="1505369987744" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="3969486" sby="8823" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="15" it="0" lt="15" ct="0" ts="1505369987744" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-1" dt="text" by="5480" sby="137" ng="2" na="2"/>
+  <httpSample t="92" it="0" lt="92" ct="13" ts="1505369987772" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="2530" sby="153" ng="2" na="2"/>
+  <httpSample t="117" it="0" lt="27" ct="11" ts="1505369987773" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="146212" sby="164" ng="2" na="2"/>
+  <httpSample t="36" it="0" lt="15" ct="0" ts="1505369987772" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="32276" sby="158" ng="2" na="2"/>
+  <httpSample t="88" it="0" lt="88" ct="12" ts="1505369987773" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="1798" sby="172" ng="2" na="2"/>
+  <httpSample t="87" it="0" lt="30" ct="13" ts="1505369987772" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="14699" sby="159" ng="2" na="2"/>
+  <httpSample t="89" it="0" lt="32" ct="13" ts="1505369987772" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="31624" sby="150" ng="2" na="2"/>
+  <httpSample t="44" it="0" lt="44" ct="19" ts="1505369987863" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="5010" sby="141" ng="2" na="2"/>
+  <httpSample t="269" it="0" lt="40" ct="19" ts="1505369987864" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="91394" sby="142" ng="2" na="2"/>
+  <httpSample t="25" it="0" lt="25" ct="0" ts="1505369987862" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-1" dt="bin" by="4240" sby="142" ng="2" na="2"/>
+  <httpSample t="1119" it="0" lt="37" ct="18" ts="1505369987864" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1142005" sby="149" ng="2" na="2"/>
+  <httpSample t="67" it="0" lt="34" ct="17" ts="1505369987865" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28898" sby="166" ng="2" na="2"/>
+  <httpSample t="333" it="0" lt="37" ct="18" ts="1505369987887" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97433" sby="148" ng="2" na="2"/>
+  <httpSample t="574" it="0" lt="36" ct="15" ts="1505369987891" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="253885" sby="157" ng="2" na="2"/>
+  <httpSample t="86" it="0" lt="21" ct="0" ts="1505369987908" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21417" sby="149" ng="2" na="2"/>
+  <httpSample t="383" it="0" lt="46" ct="0" ts="1505369987933" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="124117" sby="153" ng="2" na="2"/>
+  <httpSample t="252" it="0" lt="102" ct="0" ts="1505369987995" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37310" sby="171" ng="2" na="2"/>
+  <httpSample t="178" it="0" lt="83" ct="0" ts="1505369988134" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="30330" sby="171" ng="2" na="2"/>
+  <httpSample t="51" it="0" lt="51" ct="0" ts="1505369988221" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2043" sby="138" ng="2" na="2"/>
+  <httpSample t="190" it="0" lt="48" ct="0" ts="1505369988247" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="64192" sby="148" ng="2" na="2"/>
+  <httpSample t="119" it="0" lt="63" ct="0" ts="1505369988272" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21846" sby="145" ng="2" na="2"/>
+  <httpSample t="860" it="0" lt="64" ct="0" ts="1505369988314" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="619398" sby="145" ng="2" na="2"/>
+  <httpSample t="137" it="0" lt="68" ct="0" ts="1505369988317" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15510" sby="145" ng="2" na="2"/>
+  <httpSample t="81" it="0" lt="81" ct="0" ts="1505369988393" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="5677" sby="145" ng="2" na="2"/>
+  <httpSample t="110" it="0" lt="58" ct="0" ts="1505369988439" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15525" sby="145" ng="2" na="2"/>
+  <httpSample t="61" it="0" lt="61" ct="0" ts="1505369988454" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8124" sby="163" ng="2" na="2"/>
+  <httpSample t="57" it="0" lt="57" ct="0" ts="1505369988466" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="7092" sby="171" ng="2" na="2"/>
+  <httpSample t="527" it="0" lt="56" ct="0" ts="1505369988474" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="237885" sby="153" ng="2" na="2"/>
+  <httpSample t="368" it="0" lt="61" ct="0" ts="1505369988516" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="127349" sby="155" ng="2" na="2"/>
+  <httpSample t="67" it="0" lt="67" ct="0" ts="1505369988523" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2658" sby="147" ng="2" na="2"/>
+  <httpSample t="188" it="0" lt="77" ct="0" ts="1505369988550" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="25284" sby="136" ng="2" na="2"/>
+  <httpSample t="207" it="0" lt="90" ct="0" ts="1505369988590" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97694" sby="141" ng="2" na="2"/>
+  <httpSample t="232" it="0" lt="115" ct="0" ts="1505369988739" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24914" sby="143" ng="2" na="2"/>
+  <httpSample t="133" it="0" lt="133" ct="0" ts="1505369988798" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="4692" sby="140" ng="2" na="2"/>
+  <httpSample t="110" it="0" lt="110" ct="0" ts="1505369988885" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1310" sby="150" ng="2" na="2"/>
+  <httpSample t="125" it="0" lt="82" ct="0" ts="1505369988932" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28585" sby="162" ng="2" na="2"/>
+  <httpSample t="54" it="0" lt="54" ct="0" ts="1505369988972" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2760" sby="159" ng="2" na="2"/>
+  <httpSample t="95" it="0" lt="95" ct="45" ts="1505369988985" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2273" sby="164" ng="2" na="2"/>
+  <httpSample t="81" it="0" lt="45" ct="0" ts="1505369988996" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="16633" sby="158" ng="2" na="2"/>
+  <httpSample t="55" it="0" lt="55" ct="0" ts="1505369989002" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2107" sby="176" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1505369989027" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6173" sby="167" ng="2" na="2"/>
+  <httpSample t="49" it="0" lt="49" ct="0" ts="1505369989057" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6669" sby="170" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="46" ct="0" ts="1505369989057" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8415" sby="166" ng="2" na="2"/>
+  <httpSample t="36" it="0" lt="35" ct="0" ts="1505369989074" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="11062" sby="187" ng="2" na="2"/>
+  <httpSample t="168" it="0" lt="81" ct="30" ts="1505369989077" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="45749" sby="181" ng="2" na="2"/>
+  <httpSample t="147" it="0" lt="26" ct="0" ts="1505369989081" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="67496" sby="184" ng="2" na="2"/>
+  <httpSample t="80" it="0" lt="27" ct="0" ts="1505369989104" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24420" sby="190" ng="2" na="2"/>
+  <httpSample t="78" it="0" lt="41" ct="0" ts="1505369989109" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37023" sby="189" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1505369989110" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8866" sby="185" ng="2" na="2"/>
+  <httpSample t="68" it="0" lt="37" ct="0" ts="1505369989157" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="31007" sby="185" ng="2" na="2"/>
+  <httpSample t="169" it="0" lt="74" ct="29" ts="1505369989175" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="87594" sby="179" ng="2" na="2"/>
+  <httpSample t="140" it="0" lt="65" ct="20" ts="1505369989184" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="62609" sby="186" ng="2" na="2"/>
+  <httpSample t="101" it="0" lt="22" ct="0" ts="1505369989187" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="149695" sby="184" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="43" ct="0" ts="1505369989225" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="14590" sby="186" ng="2" na="2"/>
+  <httpSample t="46" it="0" lt="46" ct="0" ts="1505369989228" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="3909" sby="173" ng="2" na="2"/>
+</httpSample>
+<httpSample t="1621" it="0" lt="10" ct="0" ts="1505369987741" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="3969486" sby="8823" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="10" it="0" lt="10" ct="0" ts="1505369987741" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-2" dt="text" by="5480" sby="137" ng="2" na="2"/>
+  <httpSample t="89" it="0" lt="89" ct="14" ts="1505369987771" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="2530" sby="153" ng="2" na="2"/>
+  <httpSample t="116" it="0" lt="29" ct="14" ts="1505369987771" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="146212" sby="164" ng="2" na="2"/>
+  <httpSample t="37" it="0" lt="18" ct="0" ts="1505369987771" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="32276" sby="158" ng="2" na="2"/>
+  <httpSample t="88" it="0" lt="86" ct="10" ts="1505369987774" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="1798" sby="172" ng="2" na="2"/>
+  <httpSample t="86" it="0" lt="35" ct="12" ts="1505369987773" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="14699" sby="159" ng="2" na="2"/>
+  <httpSample t="88" it="0" lt="23" ct="11" ts="1505369987772" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="31624" sby="150" ng="2" na="2"/>
+  <httpSample t="26" it="0" lt="26" ct="0" ts="1505369987861" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="5010" sby="141" ng="2" na="2"/>
+  <httpSample t="313" it="0" lt="35" ct="21" ts="1505369987861" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="91394" sby="142" ng="2" na="2"/>
+  <httpSample t="26" it="0" lt="26" ct="0" ts="1505369987861" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-2" dt="bin" by="4240" sby="142" ng="2" na="2"/>
+  <httpSample t="1127" it="0" lt="36" ct="19" ts="1505369987863" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1142005" sby="149" ng="2" na="2"/>
+  <httpSample t="52" it="0" lt="33" ct="18" ts="1505369987864" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28898" sby="166" ng="2" na="2"/>
+  <httpSample t="356" it="0" lt="34" ct="17" ts="1505369987887" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97433" sby="148" ng="2" na="2"/>
+  <httpSample t="570" it="0" lt="40" ct="17" ts="1505369987887" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="253885" sby="157" ng="2" na="2"/>
+  <httpSample t="57" it="0" lt="33" ct="16" ts="1505369987888" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21417" sby="149" ng="2" na="2"/>
+  <httpSample t="511" it="0" lt="84" ct="21" ts="1505369987916" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="124117" sby="153" ng="2" na="2"/>
+  <httpSample t="272" it="0" lt="94" ct="0" ts="1505369987945" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37310" sby="171" ng="2" na="2"/>
+  <httpSample t="103" it="0" lt="59" ct="0" ts="1505369988175" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="30330" sby="171" ng="2" na="2"/>
+  <httpSample t="55" it="0" lt="55" ct="0" ts="1505369988217" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2043" sby="138" ng="2" na="2"/>
+  <httpSample t="130" it="0" lt="48" ct="0" ts="1505369988244" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="64192" sby="148" ng="2" na="2"/>
+  <httpSample t="129" it="0" lt="60" ct="0" ts="1505369988272" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21846" sby="145" ng="2" na="2"/>
+  <httpSample t="811" it="0" lt="56" ct="0" ts="1505369988280" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="619398" sby="145" ng="2" na="2"/>
+  <httpSample t="125" it="0" lt="73" ct="0" ts="1505369988376" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15510" sby="145" ng="2" na="2"/>
+  <httpSample t="75" it="0" lt="75" ct="0" ts="1505369988402" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="5677" sby="145" ng="2" na="2"/>
+  <httpSample t="115" it="0" lt="62" ct="0" ts="1505369988428" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15525" sby="145" ng="2" na="2"/>
+  <httpSample t="61" it="0" lt="61" ct="0" ts="1505369988458" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8124" sby="163" ng="2" na="2"/>
+  <httpSample t="66" it="0" lt="66" ct="0" ts="1505369988477" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="7092" sby="171" ng="2" na="2"/>
+  <httpSample t="480" it="0" lt="59" ct="0" ts="1505369988501" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="237885" sby="153" ng="2" na="2"/>
+  <httpSample t="561" it="0" lt="60" ct="0" ts="1505369988519" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="127349" sby="155" ng="2" na="2"/>
+  <httpSample t="67" it="0" lt="67" ct="0" ts="1505369988543" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2658" sby="147" ng="2" na="2"/>
+  <httpSample t="290" it="0" lt="179" ct="65" ts="1505369988544" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="25284" sby="136" ng="2" na="2"/>
+  <httpSample t="357" it="0" lt="110" ct="0" ts="1505369988610" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97694" sby="141" ng="2" na="2"/>
+  <httpSample t="188" it="0" lt="119" ct="0" ts="1505369988835" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24914" sby="143" ng="2" na="2"/>
+  <httpSample t="56" it="0" lt="56" ct="0" ts="1505369988968" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="4692" sby="140" ng="2" na="2"/>
+  <httpSample t="48" it="0" lt="48" ct="0" ts="1505369988982" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1310" sby="150" ng="2" na="2"/>
+  <httpSample t="85" it="0" lt="42" ct="0" ts="1505369988992" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28585" sby="162" ng="2" na="2"/>
+  <httpSample t="42" it="0" lt="42" ct="0" ts="1505369989023" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2760" sby="159" ng="2" na="2"/>
+  <httpSample t="41" it="0" lt="41" ct="0" ts="1505369989024" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2273" sby="164" ng="2" na="2"/>
+  <httpSample t="76" it="0" lt="49" ct="0" ts="1505369989031" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="16633" sby="158" ng="2" na="2"/>
+  <httpSample t="41" it="0" lt="41" ct="0" ts="1505369989065" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2107" sby="176" ng="2" na="2"/>
+  <httpSample t="70" it="0" lt="70" ct="35" ts="1505369989065" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6173" sby="167" ng="2" na="2"/>
+  <httpSample t="98" it="0" lt="98" ct="28" ts="1505369989079" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6669" sby="170" ng="2" na="2"/>
+  <httpSample t="116" it="0" lt="88" ct="27" ts="1505369989080" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8415" sby="166" ng="2" na="2"/>
+  <httpSample t="34" it="0" lt="34" ct="0" ts="1505369989091" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="11062" sby="187" ng="2" na="2"/>
+  <httpSample t="87" it="0" lt="51" ct="0" ts="1505369989109" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="45749" sby="181" ng="2" na="2"/>
+  <httpSample t="158" it="0" lt="58" ct="0" ts="1505369989110" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="67496" sby="184" ng="2" na="2"/>
+  <httpSample t="59" it="0" lt="52" ct="0" ts="1505369989125" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24420" sby="190" ng="2" na="2"/>
+  <httpSample t="68" it="0" lt="48" ct="0" ts="1505369989136" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37023" sby="189" ng="2" na="2"/>
+  <httpSample t="26" it="0" lt="26" ct="0" ts="1505369989178" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8866" sby="185" ng="2" na="2"/>
+  <httpSample t="123" it="0" lt="61" ct="21" ts="1505369989184" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="31007" sby="185" ng="2" na="2"/>
+  <httpSample t="167" it="0" lt="76" ct="29" ts="1505369989196" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="87594" sby="179" ng="2" na="2"/>
+  <httpSample t="124" it="0" lt="29" ct="0" ts="1505369989196" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="62609" sby="186" ng="2" na="2"/>
+  <httpSample t="110" it="0" lt="34" ct="0" ts="1505369989204" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="149695" sby="184" ng="2" na="2"/>
+  <httpSample t="38" it="0" lt="36" ct="0" ts="1505369989204" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="14590" sby="186" ng="2" na="2"/>
+  <httpSample t="39" it="0" lt="39" ct="0" ts="1505369989242" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="3909" sby="173" ng="2" na="2"/>
+</httpSample>
+<httpSample t="20" it="0" lt="19" ct="0" ts="1505369989349" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="5216" sby="143" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
 </httpSample>
-<httpSample t="2501" it="0" lt="14" ct="0" ts="1505295058466" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="3969486" sby="8823" ng="2" na="2">
-  <assertionResult>
-    <name>响应断言</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-  <httpSample t="14" it="0" lt="14" ct="0" ts="1505295058466" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-1" dt="text" by="5480" sby="137" ng="2" na="2"/>
-  <httpSample t="69" it="0" lt="68" ct="34" ts="1505295058491" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="2530" sby="153" ng="2" na="2"/>
-  <httpSample t="424" it="0" lt="69" ct="35" ts="1505295058490" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="146212" sby="164" ng="2" na="2"/>
-  <httpSample t="120" it="0" lt="69" ct="26" ts="1505295058489" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="32276" sby="158" ng="2" na="2"/>
-  <httpSample t="72" it="0" lt="71" ct="23" ts="1505295058489" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="1798" sby="172" ng="2" na="2"/>
-  <httpSample t="72" it="0" lt="37" ct="0" ts="1505295058489" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="14699" sby="159" ng="2" na="2"/>
-  <httpSample t="123" it="0" lt="66" ct="25" ts="1505295058490" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="31624" sby="150" ng="2" na="2"/>
-  <httpSample t="87" it="0" lt="87" ct="34" ts="1505295058560" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="5010" sby="141" ng="2" na="2"/>
-  <httpSample t="358" it="0" lt="91" ct="33" ts="1505295058563" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="91394" sby="142" ng="2" na="2"/>
-  <httpSample t="102" it="0" lt="102" ct="34" ts="1505295058562" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-1" dt="bin" by="4240" sby="142" ng="2" na="2"/>
-  <httpSample t="1459" it="0" lt="71" ct="32" ts="1505295058610" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1142005" sby="149" ng="2" na="2"/>
-  <httpSample t="126" it="0" lt="38" ct="0" ts="1505295058616" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28898" sby="166" ng="2" na="2"/>
-  <httpSample t="439" it="0" lt="49" ct="0" ts="1505295058648" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97433" sby="148" ng="2" na="2"/>
-  <httpSample t="726" it="0" lt="49" ct="0" ts="1505295058665" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="253885" sby="157" ng="2" na="2"/>
-  <httpSample t="148" it="0" lt="68" ct="0" ts="1505295058742" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21417" sby="149" ng="2" na="2"/>
-  <httpSample t="683" it="0" lt="202" ct="0" ts="1505295058890" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="124117" sby="153" ng="2" na="2"/>
-  <httpSample t="569" it="0" lt="341" ct="175" ts="1505295058916" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37310" sby="171" ng="2" na="2"/>
-  <httpSample t="540" it="0" lt="326" ct="168" ts="1505295058922" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="30330" sby="171" ng="2" na="2"/>
-  <httpSample t="181" it="0" lt="181" ct="0" ts="1505295059092" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2043" sby="138" ng="2" na="2"/>
-  <httpSample t="319" it="0" lt="123" ct="0" ts="1505295059274" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="64192" sby="148" ng="2" na="2"/>
-  <httpSample t="201" it="0" lt="114" ct="0" ts="1505295059392" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21846" sby="145" ng="2" na="2"/>
-  <httpSample t="1260" it="0" lt="93" ct="0" ts="1505295059462" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="619398" sby="145" ng="2" na="2"/>
-  <httpSample t="198" it="0" lt="94" ct="0" ts="1505295059485" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15510" sby="145" ng="2" na="2"/>
-  <httpSample t="111" it="0" lt="111" ct="0" ts="1505295059571" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="5677" sby="145" ng="2" na="2"/>
-  <httpSample t="266" it="0" lt="108" ct="0" ts="1505295059592" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15525" sby="145" ng="2" na="2"/>
-  <httpSample t="105" it="0" lt="105" ct="0" ts="1505295059592" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8124" sby="163" ng="2" na="2"/>
-  <httpSample t="156" it="0" lt="156" ct="0" ts="1505295059682" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="7092" sby="171" ng="2" na="2"/>
-  <httpSample t="534" it="0" lt="152" ct="0" ts="1505295059682" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="237885" sby="153" ng="2" na="2"/>
-  <httpSample t="426" it="0" lt="161" ct="0" ts="1505295059698" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="127349" sby="155" ng="2" na="2"/>
-  <httpSample t="98" it="0" lt="98" ct="0" ts="1505295059838" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2658" sby="147" ng="2" na="2"/>
-  <httpSample t="193" it="0" lt="98" ct="0" ts="1505295059859" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="25284" sby="136" ng="2" na="2"/>
-  <httpSample t="297" it="0" lt="88" ct="0" ts="1505295059937" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97694" sby="141" ng="2" na="2"/>
-  <httpSample t="101" it="0" lt="69" ct="0" ts="1505295060053" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24914" sby="143" ng="2" na="2"/>
-  <httpSample t="60" it="0" lt="60" ct="0" ts="1505295060068" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="4692" sby="140" ng="2" na="2"/>
-  <httpSample t="641" it="0" lt="553" ct="0" ts="1505295060125" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1310" sby="150" ng="2" na="2"/>
-  <httpSample t="85" it="0" lt="49" ct="0" ts="1505295060128" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28585" sby="162" ng="2" na="2"/>
-  <httpSample t="465" it="0" lt="465" ct="0" ts="1505295060154" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2760" sby="159" ng="2" na="2"/>
-  <httpSample t="74" it="0" lt="74" ct="41" ts="1505295060213" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2273" sby="164" ng="2" na="2"/>
-  <httpSample t="93" it="0" lt="67" ct="40" ts="1505295060216" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="16633" sby="158" ng="2" na="2"/>
-  <httpSample t="53" it="0" lt="53" ct="0" ts="1505295060234" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2107" sby="176" ng="2" na="2"/>
-  <httpSample t="28" it="0" lt="28" ct="0" ts="1505295060287" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6173" sby="167" ng="2" na="2"/>
-  <httpSample t="27" it="0" lt="27" ct="0" ts="1505295060287" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6669" sby="170" ng="2" na="2"/>
-  <httpSample t="39" it="0" lt="27" ct="0" ts="1505295060310" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8415" sby="166" ng="2" na="2"/>
-  <httpSample t="56" it="0" lt="42" ct="21" ts="1505295060315" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="11062" sby="187" ng="2" na="2"/>
-  <httpSample t="56" it="0" lt="23" ct="0" ts="1505295060315" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="45749" sby="181" ng="2" na="2"/>
-  <httpSample t="131" it="0" lt="16" ct="0" ts="1505295060350" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="67496" sby="184" ng="2" na="2"/>
-  <httpSample t="78" it="0" lt="20" ct="0" ts="1505295060372" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24420" sby="190" ng="2" na="2"/>
-  <httpSample t="115" it="0" lt="20" ct="0" ts="1505295060372" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37023" sby="189" ng="2" na="2"/>
-  <httpSample t="37" it="0" lt="37" ct="0" ts="1505295060450" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8866" sby="185" ng="2" na="2"/>
-  <httpSample t="36" it="0" lt="19" ct="0" ts="1505295060482" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="31007" sby="185" ng="2" na="2"/>
-  <httpSample t="97" it="0" lt="20" ct="0" ts="1505295060487" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="87594" sby="179" ng="2" na="2"/>
-  <httpSample t="67" it="0" lt="15" ct="0" ts="1505295060488" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="62609" sby="186" ng="2" na="2"/>
-  <httpSample t="149" it="0" lt="23" ct="0" ts="1505295060518" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="149695" sby="184" ng="2" na="2"/>
-  <httpSample t="409" it="0" lt="39" ct="0" ts="1505295060556" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="14590" sby="186" ng="2" na="2"/>
-  <httpSample t="14" it="0" lt="14" ct="0" ts="1505295060585" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="3909" sby="173" ng="2" na="2"/>
-</httpSample>
-<httpSample t="89" it="0" lt="77" ct="36" ts="1505295060973" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="3881" sby="143" ng="2" na="2">
+<httpSample t="32" it="0" lt="32" ct="0" ts="1505369989366" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="4097" sby="143" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
 </httpSample>
-<httpSample t="353" it="0" lt="257" ct="0" ts="1505295061065" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="45532" sby="320" ng="2" na="2">
+<httpSample t="222" it="0" lt="198" ct="0" ts="1505369989370" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="45532" sby="320" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
 </httpSample>
-<httpSample t="3614" it="0" lt="11" ct="0" ts="1505295060826" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="3969486" sby="8823" ng="2" na="2">
+<httpSample t="210" it="0" lt="188" ct="0" ts="1505369989399" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="45532" sby="320" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
-  <httpSample t="11" it="0" lt="11" ct="0" ts="1505295060826" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-2" dt="text" by="5480" sby="137" ng="2" na="2"/>
-  <httpSample t="24" it="0" lt="24" ct="8" ts="1505295060861" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="2530" sby="153" ng="2" na="2"/>
-  <httpSample t="130" it="0" lt="19" ct="7" ts="1505295060861" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="146212" sby="164" ng="2" na="2"/>
-  <httpSample t="27" it="0" lt="13" ct="0" ts="1505295060860" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="32276" sby="158" ng="2" na="2"/>
-  <httpSample t="21" it="0" lt="21" ct="8" ts="1505295060860" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="1798" sby="172" ng="2" na="2"/>
-  <httpSample t="49" it="0" lt="27" ct="14" ts="1505295060862" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="14699" sby="159" ng="2" na="2"/>
-  <httpSample t="65" it="0" lt="29" ct="14" ts="1505295060863" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="31624" sby="150" ng="2" na="2"/>
-  <httpSample t="35" it="0" lt="35" ct="11" ts="1505295060881" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="5010" sby="141" ng="2" na="2"/>
-  <httpSample t="145" it="0" lt="31" ct="14" ts="1505295060885" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="91394" sby="142" ng="2" na="2"/>
-  <httpSample t="42" it="0" lt="42" ct="23" ts="1505295060889" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-2" dt="bin" by="4240" sby="142" ng="2" na="2"/>
-  <httpSample t="3528" it="0" lt="22" ct="11" ts="1505295060912" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1142005" sby="149" ng="2" na="2"/>
-  <httpSample t="50" it="0" lt="12" ct="0" ts="1505295060916" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28898" sby="166" ng="2" na="2"/>
-  <httpSample t="134" it="0" lt="22" ct="0" ts="1505295060928" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97433" sby="148" ng="2" na="2"/>
-  <httpSample t="488" it="0" lt="49" ct="0" ts="1505295060931" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="253885" sby="157" ng="2" na="2"/>
-  <httpSample t="57" it="0" lt="32" ct="0" ts="1505295060966" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21417" sby="149" ng="2" na="2"/>
-  <httpSample t="152" it="0" lt="34" ct="18" ts="1505295060994" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="124117" sby="153" ng="2" na="2"/>
-  <httpSample t="49" it="0" lt="17" ct="0" ts="1505295061023" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37310" sby="171" ng="2" na="2"/>
-  <httpSample t="38" it="0" lt="19" ct="0" ts="1505295061031" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="30330" sby="171" ng="2" na="2"/>
-  <httpSample t="15" it="0" lt="14" ct="0" ts="1505295061063" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2043" sby="138" ng="2" na="2"/>
-  <httpSample t="104" it="0" lt="36" ct="0" ts="1505295061070" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="64192" sby="148" ng="2" na="2"/>
-  <httpSample t="57" it="0" lt="38" ct="0" ts="1505295061072" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21846" sby="145" ng="2" na="2"/>
-  <httpSample t="1178" it="0" lt="32" ct="0" ts="1505295061078" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="619398" sby="145" ng="2" na="2"/>
-  <httpSample t="64" it="0" lt="49" ct="0" ts="1505295061130" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15510" sby="145" ng="2" na="2"/>
-  <httpSample t="25" it="0" lt="24" ct="0" ts="1505295061147" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="5677" sby="145" ng="2" na="2"/>
-  <httpSample t="17" it="0" lt="17" ct="0" ts="1505295061172" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15525" sby="145" ng="2" na="2"/>
-  <httpSample t="15" it="0" lt="15" ct="0" ts="1505295061175" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8124" sby="163" ng="2" na="2"/>
-  <httpSample t="21" it="0" lt="21" ct="0" ts="1505295061190" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="7092" sby="171" ng="2" na="2"/>
-  <httpSample t="258" it="0" lt="22" ct="0" ts="1505295061190" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="237885" sby="153" ng="2" na="2"/>
-  <httpSample t="95" it="0" lt="17" ct="0" ts="1505295061194" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="127349" sby="155" ng="2" na="2"/>
-  <httpSample t="17" it="0" lt="17" ct="0" ts="1505295061212" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2658" sby="147" ng="2" na="2"/>
-  <httpSample t="37" it="0" lt="32" ct="0" ts="1505295061230" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="25284" sby="136" ng="2" na="2"/>
-  <httpSample t="89" it="0" lt="20" ct="0" ts="1505295061268" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97694" sby="141" ng="2" na="2"/>
-  <httpSample t="19" it="0" lt="18" ct="0" ts="1505295061290" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24914" sby="143" ng="2" na="2"/>
-  <httpSample t="23" it="0" lt="22" ct="0" ts="1505295061309" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="4692" sby="140" ng="2" na="2"/>
-  <httpSample t="25" it="0" lt="25" ct="0" ts="1505295061332" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1310" sby="150" ng="2" na="2"/>
-  <httpSample t="31" it="0" lt="18" ct="0" ts="1505295061357" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28585" sby="162" ng="2" na="2"/>
-  <httpSample t="20" it="0" lt="20" ct="0" ts="1505295061358" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2760" sby="159" ng="2" na="2"/>
-  <httpSample t="16" it="0" lt="16" ct="0" ts="1505295061379" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2273" sby="164" ng="2" na="2"/>
-  <httpSample t="21" it="0" lt="21" ct="0" ts="1505295061388" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="16633" sby="158" ng="2" na="2"/>
-  <httpSample t="15" it="0" lt="15" ct="0" ts="1505295061396" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2107" sby="176" ng="2" na="2"/>
-  <httpSample t="15" it="0" lt="15" ct="0" ts="1505295061410" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6173" sby="167" ng="2" na="2"/>
-  <httpSample t="17" it="0" lt="17" ct="0" ts="1505295061411" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6669" sby="170" ng="2" na="2"/>
-  <httpSample t="16" it="0" lt="16" ct="0" ts="1505295061420" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8415" sby="166" ng="2" na="2"/>
-  <httpSample t="22" it="0" lt="22" ct="0" ts="1505295061426" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="11062" sby="187" ng="2" na="2"/>
-  <httpSample t="45" it="0" lt="20" ct="0" ts="1505295061429" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="45749" sby="181" ng="2" na="2"/>
-  <httpSample t="181" it="0" lt="19" ct="0" ts="1505295061436" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="67496" sby="184" ng="2" na="2"/>
-  <httpSample t="50" it="0" lt="23" ct="0" ts="1505295061448" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24420" sby="190" ng="2" na="2"/>
-  <httpSample t="94" it="0" lt="24" ct="0" ts="1505295061449" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37023" sby="189" ng="2" na="2"/>
-  <httpSample t="406" it="0" lt="406" ct="0" ts="1505295061475" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8866" sby="185" ng="2" na="2"/>
-  <httpSample t="104" it="0" lt="42" ct="0" ts="1505295061498" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="31007" sby="185" ng="2" na="2"/>
-  <httpSample t="686" it="0" lt="61" ct="0" ts="1505295061544" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="87594" sby="179" ng="2" na="2"/>
-  <httpSample t="357" it="0" lt="96" ct="0" ts="1505295061603" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="62609" sby="186" ng="2" na="2"/>
-  <httpSample t="657" it="0" lt="128" ct="0" ts="1505295061617" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="149695" sby="184" ng="2" na="2"/>
-  <httpSample t="1181" it="0" lt="879" ct="0" ts="1505295061882" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="14590" sby="186" ng="2" na="2"/>
-  <httpSample t="93" it="0" lt="93" ct="0" ts="1505295061961" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="3909" sby="173" ng="2" na="2"/>
 </httpSample>
-<httpSample t="3028" it="0" lt="19" ct="0" ts="1505295061422" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="3969486" sby="8823" ng="1" na="1">
+<httpSample t="1575" it="0" lt="13" ct="0" ts="1505369989596" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="3969486" sby="8823" ng="2" na="2">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
     <error>false</error>
   </assertionResult>
-  <httpSample t="19" it="0" lt="19" ct="0" ts="1505295061422" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-1" dt="text" by="5480" sby="137" ng="1" na="1"/>
-  <httpSample t="17" it="0" lt="17" ct="0" ts="1505295061447" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="2530" sby="153" ng="1" na="1"/>
-  <httpSample t="506" it="0" lt="34" ct="13" ts="1505295061447" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="146212" sby="164" ng="1" na="1"/>
-  <httpSample t="126" it="0" lt="44" ct="14" ts="1505295061447" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="32276" sby="158" ng="1" na="1"/>
-  <httpSample t="45" it="0" lt="45" ct="15" ts="1505295061448" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="1798" sby="172" ng="1" na="1"/>
-  <httpSample t="91" it="0" lt="45" ct="16" ts="1505295061448" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="14699" sby="159" ng="1" na="1"/>
-  <httpSample t="125" it="0" lt="43" ct="14" ts="1505295061447" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="31624" sby="150" ng="1" na="1"/>
-  <httpSample t="621" it="0" lt="538" ct="0" ts="1505295061465" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="5010" sby="141" ng="1" na="1"/>
-  <httpSample t="467" it="0" lt="94" ct="46" ts="1505295061494" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="91394" sby="142" ng="1" na="1"/>
-  <httpSample t="64" it="0" lt="64" ct="35" ts="1505295061541" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-1" dt="bin" by="4240" sby="142" ng="1" na="1"/>
-  <httpSample t="2617" it="0" lt="139" ct="29" ts="1505295061573" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1142005" sby="149" ng="1" na="1"/>
-  <httpSample t="340" it="0" lt="141" ct="28" ts="1505295061574" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28898" sby="166" ng="1" na="1"/>
-  <httpSample t="508" it="0" lt="112" ct="0" ts="1505295061605" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97433" sby="148" ng="1" na="1"/>
-  <httpSample t="880" it="0" lt="49" ct="0" ts="1505295061914" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="253885" sby="157" ng="1" na="1"/>
-  <httpSample t="657" it="0" lt="146" ct="96" ts="1505295061956" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21417" sby="149" ng="1" na="1"/>
-  <httpSample t="342" it="0" lt="93" ct="0" ts="1505295061962" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="124117" sby="153" ng="1" na="1"/>
-  <httpSample t="264" it="0" lt="96" ct="0" ts="1505295062087" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37310" sby="171" ng="1" na="1"/>
-  <httpSample t="56" it="0" lt="27" ct="0" ts="1505295062113" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="30330" sby="171" ng="1" na="1"/>
-  <httpSample t="22" it="0" lt="22" ct="0" ts="1505295062169" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2043" sby="138" ng="1" na="1"/>
-  <httpSample t="63" it="0" lt="22" ct="0" ts="1505295062192" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="64192" sby="148" ng="1" na="1"/>
-  <httpSample t="48" it="0" lt="22" ct="0" ts="1505295062256" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21846" sby="145" ng="1" na="1"/>
-  <httpSample t="1534" it="0" lt="14" ct="0" ts="1505295062304" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="619398" sby="145" ng="1" na="1"/>
-  <httpSample t="18" it="0" lt="18" ct="0" ts="1505295062304" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15510" sby="145" ng="1" na="1"/>
-  <httpSample t="14" it="0" lt="14" ct="0" ts="1505295062322" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="5677" sby="145" ng="1" na="1"/>
-  <httpSample t="19" it="0" lt="16" ct="0" ts="1505295062337" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15525" sby="145" ng="1" na="1"/>
-  <httpSample t="39" it="0" lt="39" ct="22" ts="1505295062352" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8124" sby="163" ng="1" na="1"/>
-  <httpSample t="18" it="0" lt="18" ct="0" ts="1505295062356" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="7092" sby="171" ng="1" na="1"/>
-  <httpSample t="263" it="0" lt="16" ct="0" ts="1505295062374" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="237885" sby="153" ng="1" na="1"/>
-  <httpSample t="399" it="0" lt="24" ct="0" ts="1505295062391" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="127349" sby="155" ng="1" na="1"/>
-  <httpSample t="126" it="0" lt="125" ct="0" ts="1505295062614" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2658" sby="147" ng="1" na="1"/>
-  <httpSample t="438" it="0" lt="61" ct="0" ts="1505295062638" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="25284" sby="136" ng="1" na="1"/>
-  <httpSample t="1710" it="0" lt="492" ct="0" ts="1505295062740" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97694" sby="141" ng="1" na="1"/>
-  <httpSample t="29" it="0" lt="14" ct="0" ts="1505295062791" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24914" sby="143" ng="1" na="1"/>
-  <httpSample t="13" it="0" lt="13" ct="0" ts="1505295062794" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="4692" sby="140" ng="1" na="1"/>
-  <httpSample t="16" it="0" lt="16" ct="0" ts="1505295062808" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1310" sby="150" ng="1" na="1"/>
-  <httpSample t="29" it="0" lt="15" ct="0" ts="1505295062821" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28585" sby="162" ng="1" na="1"/>
-  <httpSample t="14" it="0" lt="14" ct="0" ts="1505295062824" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2760" sby="159" ng="1" na="1"/>
-  <httpSample t="13" it="0" lt="13" ct="0" ts="1505295062838" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2273" sby="164" ng="1" na="1"/>
-  <httpSample t="23" it="0" lt="15" ct="0" ts="1505295062851" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="16633" sby="158" ng="1" na="1"/>
-  <httpSample t="15" it="0" lt="15" ct="0" ts="1505295062851" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2107" sby="176" ng="1" na="1"/>
-  <httpSample t="11" it="0" lt="11" ct="0" ts="1505295062867" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6173" sby="167" ng="1" na="1"/>
-  <httpSample t="11" it="0" lt="11" ct="0" ts="1505295062874" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6669" sby="170" ng="1" na="1"/>
-  <httpSample t="337" it="0" lt="337" ct="0" ts="1505295062878" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8415" sby="166" ng="1" na="1"/>
-  <httpSample t="314" it="0" lt="314" ct="0" ts="1505295062885" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="11062" sby="187" ng="1" na="1"/>
-  <httpSample t="186" it="0" lt="45" ct="0" ts="1505295063076" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="45749" sby="181" ng="1" na="1"/>
-  <httpSample t="191" it="0" lt="24" ct="0" ts="1505295063199" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="67496" sby="184" ng="1" na="1"/>
-  <httpSample t="75" it="0" lt="35" ct="0" ts="1505295063215" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24420" sby="190" ng="1" na="1"/>
-  <httpSample t="358" it="0" lt="28" ct="0" ts="1505295063262" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37023" sby="189" ng="1" na="1"/>
-  <httpSample t="62" it="0" lt="62" ct="0" ts="1505295063290" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8866" sby="185" ng="1" na="1"/>
-  <httpSample t="119" it="0" lt="37" ct="0" ts="1505295063353" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="31007" sby="185" ng="1" na="1"/>
-  <httpSample t="250" it="0" lt="24" ct="0" ts="1505295063390" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="87594" sby="179" ng="1" na="1"/>
-  <httpSample t="228" it="0" lt="15" ct="0" ts="1505295063472" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="62609" sby="186" ng="1" na="1"/>
-  <httpSample t="193" it="0" lt="39" ct="24" ts="1505295063621" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="149695" sby="184" ng="1" na="1"/>
-  <httpSample t="341" it="0" lt="33" ct="0" ts="1505295063641" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="14590" sby="186" ng="1" na="1"/>
-  <httpSample t="38" it="0" lt="38" ct="13" ts="1505295063701" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="3909" sby="173" ng="1" na="1"/>
+  <httpSample t="13" it="0" lt="13" ct="0" ts="1505369989596" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-1" dt="text" by="5480" sby="137" ng="2" na="2"/>
+  <httpSample t="19" it="0" lt="19" ct="0" ts="1505369989625" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="2530" sby="153" ng="2" na="2"/>
+  <httpSample t="230" it="0" lt="25" ct="0" ts="1505369989630" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="146212" sby="164" ng="2" na="2"/>
+  <httpSample t="82" it="0" lt="34" ct="15" ts="1505369989640" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="32276" sby="158" ng="2" na="2"/>
+  <httpSample t="19" it="0" lt="19" ct="0" ts="1505369989625" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="1798" sby="172" ng="2" na="2"/>
+  <httpSample t="21" it="0" lt="14" ct="0" ts="1505369989624" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="14699" sby="159" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="13" ct="0" ts="1505369989624" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="31624" sby="150" ng="2" na="2"/>
+  <httpSample t="42" it="0" lt="42" ct="21" ts="1505369989645" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="5010" sby="141" ng="2" na="2"/>
+  <httpSample t="214" it="0" lt="35" ct="20" ts="1505369989646" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="91394" sby="142" ng="2" na="2"/>
+  <httpSample t="33" it="0" lt="33" ct="17" ts="1505369989646" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-1" dt="bin" by="4240" sby="142" ng="2" na="2"/>
+  <httpSample t="775" it="0" lt="31" ct="0" ts="1505369989671" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1142005" sby="149" ng="2" na="2"/>
+  <httpSample t="97" it="0" lt="36" ct="0" ts="1505369989679" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28898" sby="166" ng="2" na="2"/>
+  <httpSample t="225" it="0" lt="29" ct="0" ts="1505369989687" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97433" sby="148" ng="2" na="2"/>
+  <httpSample t="316" it="0" lt="31" ct="0" ts="1505369989723" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="253885" sby="157" ng="2" na="2"/>
+  <httpSample t="105" it="0" lt="61" ct="0" ts="1505369989776" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21417" sby="149" ng="2" na="2"/>
+  <httpSample t="420" it="0" lt="94" ct="45" ts="1505369989861" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="124117" sby="153" ng="2" na="2"/>
+  <httpSample t="91" it="0" lt="48" ct="0" ts="1505369989861" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37310" sby="171" ng="2" na="2"/>
+  <httpSample t="101" it="0" lt="52" ct="0" ts="1505369989881" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="30330" sby="171" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1505369989912" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2043" sby="138" ng="2" na="2"/>
+  <httpSample t="340" it="0" lt="109" ct="49" ts="1505369989953" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="64192" sby="148" ng="2" na="2"/>
+  <httpSample t="121" it="0" lt="64" ct="0" ts="1505369989959" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21846" sby="145" ng="2" na="2"/>
+  <httpSample t="939" it="0" lt="59" ct="0" ts="1505369989983" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="619398" sby="145" ng="2" na="2"/>
+  <httpSample t="61" it="0" lt="61" ct="0" ts="1505369990039" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15510" sby="145" ng="2" na="2"/>
+  <httpSample t="66" it="0" lt="66" ct="0" ts="1505369990080" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="5677" sby="145" ng="2" na="2"/>
+  <httpSample t="62" it="0" lt="61" ct="0" ts="1505369990100" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15525" sby="145" ng="2" na="2"/>
+  <httpSample t="76" it="0" lt="76" ct="0" ts="1505369990146" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8124" sby="163" ng="2" na="2"/>
+  <httpSample t="72" it="0" lt="72" ct="0" ts="1505369990162" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="7092" sby="171" ng="2" na="2"/>
+  <httpSample t="614" it="0" lt="81" ct="0" ts="1505369990222" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="237885" sby="153" ng="2" na="2"/>
+  <httpSample t="301" it="0" lt="90" ct="0" ts="1505369990235" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="127349" sby="155" ng="2" na="2"/>
+  <httpSample t="107" it="0" lt="107" ct="0" ts="1505369990281" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2658" sby="147" ng="2" na="2"/>
+  <httpSample t="225" it="0" lt="117" ct="0" ts="1505369990293" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="25284" sby="136" ng="2" na="2"/>
+  <httpSample t="333" it="0" lt="112" ct="0" ts="1505369990388" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97694" sby="141" ng="2" na="2"/>
+  <httpSample t="335" it="0" lt="229" ct="93" ts="1505369990447" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24914" sby="143" ng="2" na="2"/>
+  <httpSample t="104" it="0" lt="104" ct="0" ts="1505369990518" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="4692" sby="140" ng="2" na="2"/>
+  <httpSample t="92" it="0" lt="92" ct="0" ts="1505369990537" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1310" sby="150" ng="2" na="2"/>
+  <httpSample t="232" it="0" lt="128" ct="0" ts="1505369990622" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28585" sby="162" ng="2" na="2"/>
+  <httpSample t="135" it="0" lt="135" ct="0" ts="1505369990629" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2760" sby="159" ng="2" na="2"/>
+  <httpSample t="115" it="0" lt="115" ct="0" ts="1505369990721" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2273" sby="164" ng="2" na="2"/>
+  <httpSample t="165" it="0" lt="105" ct="0" ts="1505369990764" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="16633" sby="158" ng="2" na="2"/>
+  <httpSample t="107" it="0" lt="107" ct="0" ts="1505369990782" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2107" sby="176" ng="2" na="2"/>
+  <httpSample t="83" it="0" lt="83" ct="0" ts="1505369990836" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6173" sby="167" ng="2" na="2"/>
+  <httpSample t="86" it="0" lt="86" ct="0" ts="1505369990836" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6669" sby="170" ng="2" na="2"/>
+  <httpSample t="103" it="0" lt="74" ct="0" ts="1505369990855" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8415" sby="166" ng="2" na="2"/>
+  <httpSample t="77" it="0" lt="55" ct="0" ts="1505369990889" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="11062" sby="187" ng="2" na="2"/>
+  <httpSample t="46" it="0" lt="27" ct="0" ts="1505369990920" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="45749" sby="181" ng="2" na="2"/>
+  <httpSample t="160" it="0" lt="32" ct="0" ts="1505369990923" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="67496" sby="184" ng="2" na="2"/>
+  <httpSample t="133" it="0" lt="76" ct="32" ts="1505369990923" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24420" sby="190" ng="2" na="2"/>
+  <httpSample t="66" it="0" lt="29" ct="0" ts="1505369990929" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37023" sby="189" ng="2" na="2"/>
+  <httpSample t="41" it="0" lt="41" ct="0" ts="1505369990958" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8866" sby="185" ng="2" na="2"/>
+  <httpSample t="153" it="0" lt="82" ct="33" ts="1505369990966" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="31007" sby="185" ng="2" na="2"/>
+  <httpSample t="205" it="0" lt="86" ct="33" ts="1505369990966" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="87594" sby="179" ng="2" na="2"/>
+  <httpSample t="64" it="0" lt="22" ct="0" ts="1505369990996" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="62609" sby="186" ng="2" na="2"/>
+  <httpSample t="150" it="0" lt="40" ct="0" ts="1505369990999" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="149695" sby="184" ng="2" na="2"/>
+  <httpSample t="42" it="0" lt="42" ct="0" ts="1505369991056" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="14590" sby="186" ng="2" na="2"/>
+  <httpSample t="42" it="0" lt="42" ct="0" ts="1505369991060" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="3909" sby="173" ng="2" na="2"/>
+</httpSample>
+<httpSample t="1554" it="0" lt="12" ct="0" ts="1505369989617" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="3969486" sby="8823" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="12" it="0" lt="12" ct="0" ts="1505369989617" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-2" dt="text" by="5480" sby="137" ng="2" na="2"/>
+  <httpSample t="19" it="0" lt="19" ct="0" ts="1505369989641" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="2530" sby="153" ng="2" na="2"/>
+  <httpSample t="244" it="0" lt="22" ct="0" ts="1505369989637" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="146212" sby="164" ng="2" na="2"/>
+  <httpSample t="70" it="0" lt="22" ct="0" ts="1505369989645" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="32276" sby="158" ng="2" na="2"/>
+  <httpSample t="42" it="0" lt="42" ct="21" ts="1505369989645" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="1798" sby="172" ng="2" na="2"/>
+  <httpSample t="38" it="0" lt="22" ct="0" ts="1505369989637" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="14699" sby="159" ng="2" na="2"/>
+  <httpSample t="31" it="0" lt="16" ct="0" ts="1505369989636" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="31624" sby="150" ng="2" na="2"/>
+  <httpSample t="49" it="0" lt="49" ct="13" ts="1505369989661" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="5010" sby="141" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="19" ct="0" ts="1505369989668" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="91394" sby="142" ng="2" na="2"/>
+  <httpSample t="37" it="0" lt="37" ct="0" ts="1505369989675" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-2" dt="bin" by="4240" sby="142" ng="2" na="2"/>
+  <httpSample t="1223" it="0" lt="64" ct="29" ts="1505369989687" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1142005" sby="149" ng="2" na="2"/>
+  <httpSample t="114" it="0" lt="19" ct="0" ts="1505369989711" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28898" sby="166" ng="2" na="2"/>
+  <httpSample t="249" it="0" lt="25" ct="0" ts="1505369989713" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97433" sby="148" ng="2" na="2"/>
+  <httpSample t="587" it="0" lt="67" ct="28" ts="1505369989716" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="253885" sby="157" ng="2" na="2"/>
+  <httpSample t="35" it="0" lt="32" ct="0" ts="1505369989716" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21417" sby="149" ng="2" na="2"/>
+  <httpSample t="98" it="0" lt="41" ct="0" ts="1505369989752" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="124117" sby="153" ng="2" na="2"/>
+  <httpSample t="121" it="0" lt="38" ct="0" ts="1505369989825" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37310" sby="171" ng="2" na="2"/>
+  <httpSample t="43" it="0" lt="37" ct="0" ts="1505369989851" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="30330" sby="171" ng="2" na="2"/>
+  <httpSample t="58" it="0" lt="57" ct="0" ts="1505369989882" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2043" sby="138" ng="2" na="2"/>
+  <httpSample t="278" it="0" lt="88" ct="45" ts="1505369989895" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="64192" sby="148" ng="2" na="2"/>
+  <httpSample t="102" it="0" lt="42" ct="0" ts="1505369989940" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21846" sby="145" ng="2" na="2"/>
+  <httpSample t="998" it="0" lt="49" ct="0" ts="1505369989946" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="619398" sby="145" ng="2" na="2"/>
+  <httpSample t="131" it="0" lt="68" ct="0" ts="1505369989962" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15510" sby="145" ng="2" na="2"/>
+  <httpSample t="61" it="0" lt="61" ct="0" ts="1505369990042" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="5677" sby="145" ng="2" na="2"/>
+  <httpSample t="128" it="0" lt="62" ct="0" ts="1505369990094" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15525" sby="145" ng="2" na="2"/>
+  <httpSample t="64" it="0" lt="64" ct="0" ts="1505369990103" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8124" sby="163" ng="2" na="2"/>
+  <httpSample t="76" it="0" lt="76" ct="0" ts="1505369990168" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="7092" sby="171" ng="2" na="2"/>
+  <httpSample t="622" it="0" lt="74" ct="0" ts="1505369990174" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="237885" sby="153" ng="2" na="2"/>
+  <httpSample t="406" it="0" lt="83" ct="0" ts="1505369990223" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="127349" sby="155" ng="2" na="2"/>
+  <httpSample t="101" it="0" lt="101" ct="0" ts="1505369990245" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2658" sby="147" ng="2" na="2"/>
+  <httpSample t="219" it="0" lt="118" ct="0" ts="1505369990303" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="25284" sby="136" ng="2" na="2"/>
+  <httpSample t="533" it="0" lt="123" ct="0" ts="1505369990347" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97694" sby="141" ng="2" na="2"/>
+  <httpSample t="214" it="0" lt="92" ct="0" ts="1505369990522" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24914" sby="143" ng="2" na="2"/>
+  <httpSample t="135" it="0" lt="135" ct="0" ts="1505369990629" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="4692" sby="140" ng="2" na="2"/>
+  <httpSample t="103" it="0" lt="103" ct="0" ts="1505369990737" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1310" sby="150" ng="2" na="2"/>
+  <httpSample t="168" it="0" lt="109" ct="0" ts="1505369990764" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28585" sby="162" ng="2" na="2"/>
+  <httpSample t="104" it="0" lt="104" ct="0" ts="1505369990796" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2760" sby="159" ng="2" na="2"/>
+  <httpSample t="81" it="0" lt="81" ct="0" ts="1505369990841" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2273" sby="164" ng="2" na="2"/>
+  <httpSample t="57" it="0" lt="56" ct="0" ts="1505369990880" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="16633" sby="158" ng="2" na="2"/>
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1505369990900" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2107" sby="176" ng="2" na="2"/>
+  <httpSample t="37" it="0" lt="37" ct="0" ts="1505369990910" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6173" sby="167" ng="2" na="2"/>
+  <httpSample t="76" it="0" lt="76" ct="32" ts="1505369990923" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6669" sby="170" ng="2" na="2"/>
+  <httpSample t="33" it="0" lt="33" ct="0" ts="1505369990933" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8415" sby="166" ng="2" na="2"/>
+  <httpSample t="62" it="0" lt="29" ct="0" ts="1505369990937" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="11062" sby="187" ng="2" na="2"/>
+  <httpSample t="54" it="0" lt="24" ct="0" ts="1505369990945" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="45749" sby="181" ng="2" na="2"/>
+  <httpSample t="54" it="0" lt="30" ct="0" ts="1505369990947" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="67496" sby="184" ng="2" na="2"/>
+  <httpSample t="41" it="0" lt="33" ct="0" ts="1505369990947" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24420" sby="190" ng="2" na="2"/>
+  <httpSample t="153" it="0" lt="86" ct="33" ts="1505369990966" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37023" sby="189" ng="2" na="2"/>
+  <httpSample t="36" it="0" lt="36" ct="0" ts="1505369990988" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8866" sby="185" ng="2" na="2"/>
+  <httpSample t="57" it="0" lt="26" ct="0" ts="1505369990999" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="31007" sby="185" ng="2" na="2"/>
+  <httpSample t="171" it="0" lt="63" ct="18" ts="1505369991000" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="87594" sby="179" ng="2" na="2"/>
+  <httpSample t="146" it="0" lt="63" ct="18" ts="1505369991000" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="62609" sby="186" ng="2" na="2"/>
+  <httpSample t="104" it="0" lt="17" ct="0" ts="1505369991001" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="149695" sby="184" ng="2" na="2"/>
+  <httpSample t="42" it="0" lt="42" ct="0" ts="1505369991025" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="14590" sby="186" ng="2" na="2"/>
+  <httpSample t="38" it="0" lt="38" ct="0" ts="1505369991056" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="3909" sby="173" ng="2" na="2"/>
+</httpSample>
+<httpSample t="34" it="0" lt="33" ct="0" ts="1505369991175" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="4842" sby="143" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="0" ts="1505369991179" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="4904" sby="143" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="239" it="0" lt="202" ct="0" ts="1505369991219" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="45532" sby="320" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="247" it="0" lt="224" ct="0" ts="1505369991211" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="45532" sby="320" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="1709" it="0" lt="10" ct="0" ts="1505369991470" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-1" dt="text" by="3969486" sby="8823" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="10" it="0" lt="10" ct="0" ts="1505369991470" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-1" dt="text" by="5480" sby="137" ng="2" na="2"/>
+  <httpSample t="12" it="0" lt="12" ct="0" ts="1505369991492" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="2530" sby="153" ng="2" na="2"/>
+  <httpSample t="186" it="0" lt="28" ct="11" ts="1505369991492" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="146212" sby="164" ng="2" na="2"/>
+  <httpSample t="87" it="0" lt="29" ct="10" ts="1505369991493" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="32276" sby="158" ng="2" na="2"/>
+  <httpSample t="30" it="0" lt="30" ct="11" ts="1505369991493" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="1798" sby="172" ng="2" na="2"/>
+  <httpSample t="68" it="0" lt="35" ct="10" ts="1505369991494" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="14699" sby="159" ng="2" na="2"/>
+  <httpSample t="74" it="0" lt="32" ct="14" ts="1505369991494" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="31624" sby="150" ng="2" na="2"/>
+  <httpSample t="57" it="0" lt="57" ct="16" ts="1505369991504" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="5010" sby="141" ng="2" na="2"/>
+  <httpSample t="184" it="0" lt="47" ct="23" ts="1505369991524" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-1" dt="text" by="91394" sby="142" ng="2" na="2"/>
+  <httpSample t="55" it="0" lt="55" ct="20" ts="1505369991563" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-1" dt="bin" by="4240" sby="142" ng="2" na="2"/>
+  <httpSample t="1058" it="0" lt="21" ct="0" ts="1505369991562" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1142005" sby="149" ng="2" na="2"/>
+  <httpSample t="88" it="0" lt="56" ct="19" ts="1505369991569" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28898" sby="166" ng="2" na="2"/>
+  <httpSample t="67" it="0" lt="19" ct="0" ts="1505369991581" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97433" sby="148" ng="2" na="2"/>
+  <httpSample t="396" it="0" lt="37" ct="0" ts="1505369991618" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="253885" sby="157" ng="2" na="2"/>
+  <httpSample t="117" it="0" lt="72" ct="40" ts="1505369991648" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21417" sby="149" ng="2" na="2"/>
+  <httpSample t="242" it="0" lt="33" ct="0" ts="1505369991658" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="124117" sby="153" ng="2" na="2"/>
+  <httpSample t="160" it="0" lt="66" ct="29" ts="1505369991678" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37310" sby="171" ng="2" na="2"/>
+  <httpSample t="71" it="0" lt="36" ct="0" ts="1505369991711" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="30330" sby="171" ng="2" na="2"/>
+  <httpSample t="50" it="0" lt="50" ct="0" ts="1505369991765" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2043" sby="138" ng="2" na="2"/>
+  <httpSample t="150" it="0" lt="43" ct="0" ts="1505369991782" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="64192" sby="148" ng="2" na="2"/>
+  <httpSample t="110" it="0" lt="56" ct="0" ts="1505369991815" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="21846" sby="145" ng="2" na="2"/>
+  <httpSample t="1340" it="0" lt="61" ct="0" ts="1505369991839" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="619398" sby="145" ng="2" na="2"/>
+  <httpSample t="89" it="0" lt="49" ct="0" ts="1505369991900" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15510" sby="145" ng="2" na="2"/>
+  <httpSample t="38" it="0" lt="38" ct="0" ts="1505369991925" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="5677" sby="145" ng="2" na="2"/>
+  <httpSample t="95" it="0" lt="95" ct="0" ts="1505369991932" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="15525" sby="145" ng="2" na="2"/>
+  <httpSample t="53" it="0" lt="53" ct="0" ts="1505369991963" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8124" sby="163" ng="2" na="2"/>
+  <httpSample t="49" it="0" lt="49" ct="0" ts="1505369991990" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="7092" sby="171" ng="2" na="2"/>
+  <httpSample t="449" it="0" lt="120" ct="0" ts="1505369992014" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="237885" sby="153" ng="2" na="2"/>
+  <httpSample t="761" it="0" lt="63" ct="0" ts="1505369992017" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="127349" sby="155" ng="2" na="2"/>
+  <httpSample t="74" it="0" lt="74" ct="0" ts="1505369992027" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2658" sby="147" ng="2" na="2"/>
+  <httpSample t="130" it="0" lt="72" ct="0" ts="1505369992039" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="25284" sby="136" ng="2" na="2"/>
+  <httpSample t="1033" it="0" lt="65" ct="0" ts="1505369992101" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="97694" sby="141" ng="2" na="2"/>
+  <httpSample t="143" it="0" lt="73" ct="0" ts="1505369992169" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24914" sby="143" ng="2" na="2"/>
+  <httpSample t="62" it="0" lt="62" ct="0" ts="1505369992312" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="4692" sby="140" ng="2" na="2"/>
+  <httpSample t="55" it="0" lt="55" ct="0" ts="1505369992375" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="1310" sby="150" ng="2" na="2"/>
+  <httpSample t="79" it="0" lt="46" ct="22" ts="1505369992430" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="28585" sby="162" ng="2" na="2"/>
+  <httpSample t="329" it="0" lt="329" ct="0" ts="1505369992463" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2760" sby="159" ng="2" na="2"/>
+  <httpSample t="22" it="0" lt="22" ct="0" ts="1505369992511" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2273" sby="164" ng="2" na="2"/>
+  <httpSample t="33" it="0" lt="18" ct="0" ts="1505369992533" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="16633" sby="158" ng="2" na="2"/>
+  <httpSample t="12" it="0" lt="12" ct="0" ts="1505369992566" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="2107" sby="176" ng="2" na="2"/>
+  <httpSample t="15" it="0" lt="15" ct="0" ts="1505369992579" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6173" sby="167" ng="2" na="2"/>
+  <httpSample t="14" it="0" lt="14" ct="0" ts="1505369992594" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="6669" sby="170" ng="2" na="2"/>
+  <httpSample t="17" it="0" lt="17" ct="0" ts="1505369992608" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8415" sby="166" ng="2" na="2"/>
+  <httpSample t="14" it="0" lt="14" ct="0" ts="1505369992620" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="11062" sby="187" ng="2" na="2"/>
+  <httpSample t="44" it="0" lt="13" ct="0" ts="1505369992626" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="45749" sby="181" ng="2" na="2"/>
+  <httpSample t="42" it="0" lt="17" ct="0" ts="1505369992634" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="67496" sby="184" ng="2" na="2"/>
+  <httpSample t="23" it="0" lt="15" ct="0" ts="1505369992670" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="24420" sby="190" ng="2" na="2"/>
+  <httpSample t="27" it="0" lt="13" ct="0" ts="1505369992677" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="37023" sby="189" ng="2" na="2"/>
+  <httpSample t="13" it="0" lt="13" ct="0" ts="1505369992693" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="8866" sby="185" ng="2" na="2"/>
+  <httpSample t="32" it="0" lt="18" ct="0" ts="1505369992704" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="31007" sby="185" ng="2" na="2"/>
+  <httpSample t="53" it="0" lt="16" ct="0" ts="1505369992706" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="87594" sby="179" ng="2" na="2"/>
+  <httpSample t="56" it="0" lt="23" ct="0" ts="1505369992736" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="62609" sby="186" ng="2" na="2"/>
+  <httpSample t="348" it="0" lt="25" ct="0" ts="1505369992759" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="149695" sby="184" ng="2" na="2"/>
+  <httpSample t="98" it="0" lt="96" ct="30" ts="1505369992778" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="14590" sby="186" ng="2" na="2"/>
+  <httpSample t="21" it="0" lt="21" ct="0" ts="1505369992793" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-1" dt="text" by="3909" sby="173" ng="2" na="2"/>
+</httpSample>
+<httpSample t="1885" it="0" lt="11" ct="0" ts="1505369991468" s="true" lb="HTTP请求" rc="200" rm="" tn="线程组 1-2" dt="text" by="3969486" sby="8823" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <httpSample t="11" it="0" lt="11" ct="0" ts="1505369991468" s="true" lb="http://180.169.149.4:56004/cpt/index.html" rc="200" rm="" tn="线程组 1-2" dt="text" by="5480" sby="137" ng="1" na="1"/>
+  <httpSample t="30" it="0" lt="30" ct="8" ts="1505369991492" s="true" lb="http://180.169.149.4:56004/cpt/lib/iconMoonFont/style.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="2530" sby="153" ng="1" na="1"/>
+  <httpSample t="87" it="0" lt="14" ct="0" ts="1505369991487" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/css/bootstrap.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="146212" sby="164" ng="1" na="1"/>
+  <httpSample t="93" it="0" lt="27" ct="12" ts="1505369991488" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="32276" sby="158" ng="1" na="1"/>
+  <httpSample t="25" it="0" lt="25" ct="12" ts="1505369991488" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="1798" sby="172" ng="1" na="1"/>
+  <httpSample t="59" it="0" lt="31" ct="12" ts="1505369991488" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/skin/default/layer.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="14699" sby="159" ng="1" na="1"/>
+  <httpSample t="95" it="0" lt="25" ct="12" ts="1505369991488" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/css/layui.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="31624" sby="150" ng="1" na="1"/>
+  <httpSample t="48" it="0" lt="48" ct="21" ts="1505369991514" s="true" lb="http://180.169.149.4:56004/cpt/css/common.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="5010" sby="141" ng="1" na="1"/>
+  <httpSample t="165" it="0" lt="28" ct="0" ts="1505369991523" s="true" lb="http://180.169.149.4:56004/cpt/css/theme-1.css" rc="200" rm="" tn="线程组 1-2" dt="text" by="91394" sby="142" ng="1" na="1"/>
+  <httpSample t="56" it="0" lt="56" ct="27" ts="1505369991547" s="true" lb="http://180.169.149.4:56004/cpt/images/logo.jpg" rc="200" rm="" tn="线程组 1-2" dt="bin" by="4240" sby="142" ng="1" na="1"/>
+  <httpSample t="1071" it="0" lt="18" ct="0" ts="1505369991563" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular/angular.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1142005" sby="149" ng="1" na="1"/>
+  <httpSample t="115" it="0" lt="50" ct="19" ts="1505369991575" s="true" lb="http://180.169.149.4:56004/cpt/lib/angular-ui/angular-ui-router.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28898" sby="166" ng="1" na="1"/>
+  <httpSample t="237" it="0" lt="56" ct="19" ts="1505369991581" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery1.12.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97433" sby="148" ng="1" na="1"/>
+  <httpSample t="333" it="0" lt="19" ct="0" ts="1505369991583" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-ui/jquery-ui.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="253885" sby="157" ng="1" na="1"/>
+  <httpSample t="75" it="0" lt="34" ct="0" ts="1505369991603" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21417" sby="149" ng="1" na="1"/>
+  <httpSample t="251" it="0" lt="28" ct="0" ts="1505369991678" s="true" lb="http://180.169.149.4:56004/cpt/lib/react/react-dom.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="124117" sby="153" ng="1" na="1"/>
+  <httpSample t="70" it="0" lt="29" ct="0" ts="1505369991688" s="true" lb="http://180.169.149.4:56004/cpt/lib/bootstrap-3.3.7/js/bootstrap3.3.7.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37310" sby="171" ng="1" na="1"/>
+  <httpSample t="68" it="0" lt="24" ct="0" ts="1505369991690" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery-multiselect/jquery.multiselect.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="30330" sby="171" ng="1" na="1"/>
+  <httpSample t="43" it="0" lt="43" ct="0" ts="1505369991759" s="true" lb="http://180.169.149.4:56004/cpt/lib/form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2043" sby="138" ng="1" na="1"/>
+  <httpSample t="143" it="0" lt="39" ct="0" ts="1505369991759" s="true" lb="http://180.169.149.4:56004/cpt/lib/nicescroll.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="64192" sby="148" ng="1" na="1"/>
+  <httpSample t="53" it="0" lt="50" ct="0" ts="1505369991802" s="true" lb="http://180.169.149.4:56004/cpt/lib/layer/layer.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="21846" sby="145" ng="1" na="1"/>
+  <httpSample t="966" it="0" lt="60" ct="0" ts="1505369991818" s="true" lb="http://180.169.149.4:56004/cpt/lib/echarts.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="619398" sby="145" ng="1" na="1"/>
+  <httpSample t="100" it="0" lt="60" ct="0" ts="1505369991856" s="true" lb="http://180.169.149.4:56004/cpt/lib/jquery.form.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15510" sby="145" ng="1" na="1"/>
+  <httpSample t="47" it="0" lt="47" ct="0" ts="1505369991902" s="true" lb="http://180.169.149.4:56004/cpt/lib/layui/layui.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="5677" sby="145" ng="1" na="1"/>
+  <httpSample t="430" it="0" lt="430" ct="0" ts="1505369991916" s="true" lb="http://180.169.149.4:56004/cpt/lib/draggabilly.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="15525" sby="145" ng="1" na="1"/>
+  <httpSample t="454" it="0" lt="454" ct="0" ts="1505369991930" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/FileSaver.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8124" sby="163" ng="1" na="1"/>
+  <httpSample t="58" it="0" lt="58" ct="0" ts="1505369991949" s="true" lb="http://180.169.149.4:56004/cpt/lib/Export-Html-To-Word/jquery.wordexport.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="7092" sby="171" ng="1" na="1"/>
+  <httpSample t="369" it="0" lt="47" ct="0" ts="1505369991956" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/jspdf.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="237885" sby="153" ng="1" na="1"/>
+  <httpSample t="250" it="0" lt="45" ct="0" ts="1505369992008" s="true" lb="http://180.169.149.4:56004/cpt/lib/htmlToPdf/html2canvas.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="127349" sby="155" ng="1" na="1"/>
+  <httpSample t="74" it="0" lt="74" ct="0" ts="1505369992258" s="true" lb="http://180.169.149.4:56004/cpt/lib/FileSaver.min.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2658" sby="147" ng="1" na="1"/>
+  <httpSample t="105" it="0" lt="56" ct="0" ts="1505369992325" s="true" lb="http://180.169.149.4:56004/cpt/js/app.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="25284" sby="136" ng="1" na="1"/>
+  <httpSample t="663" it="0" lt="63" ct="0" ts="1505369992332" s="true" lb="http://180.169.149.4:56004/cpt/js/services.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="97694" sby="141" ng="1" na="1"/>
+  <httpSample t="376" it="0" lt="306" ct="0" ts="1505369992347" s="true" lb="http://180.169.149.4:56004/cpt/js/directives.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24914" sby="143" ng="1" na="1"/>
+  <httpSample t="79" it="0" lt="79" ct="0" ts="1505369992384" s="true" lb="http://180.169.149.4:56004/cpt/js/filters.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="4692" sby="140" ng="1" na="1"/>
+  <httpSample t="53" it="0" lt="53" ct="22" ts="1505369992430" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/index.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="1310" sby="150" ng="1" na="1"/>
+  <httpSample t="890" it="0" lt="275" ct="0" ts="1505369992463" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/freeTest/freeTest.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="28585" sby="162" ng="1" na="1"/>
+  <httpSample t="12" it="0" lt="12" ct="0" ts="1505369992484" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/firstList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2760" sby="159" ng="1" na="1"/>
+  <httpSample t="15" it="0" lt="15" ct="0" ts="1505369992496" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectList.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2273" sby="164" ng="1" na="1"/>
+  <httpSample t="350" it="0" lt="12" ct="0" ts="1505369992512" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/homeCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="16633" sby="158" ng="1" na="1"/>
+  <httpSample t="10" it="0" lt="10" ct="0" ts="1505369992634" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/userCenter/userCenterCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="2107" sby="176" ng="1" na="1"/>
+  <httpSample t="12" it="0" lt="12" ct="0" ts="1505369992644" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/login/loginManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6173" sby="167" ng="1" na="1"/>
+  <httpSample t="15" it="0" lt="15" ct="0" ts="1505369992656" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/project/projectCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="6669" sby="170" ng="1" na="1"/>
+  <httpSample t="16" it="0" lt="16" ct="0" ts="1505369992671" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectMember.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8415" sby="166" ng="1" na="1"/>
+  <httpSample t="17" it="0" lt="17" ct="0" ts="1505369992687" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/projectManager/projectManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="11062" sby="187" ng="1" na="1"/>
+  <httpSample t="37" it="0" lt="14" ct="0" ts="1505369992704" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/planManager/planManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="45749" sby="181" ng="1" na="1"/>
+  <httpSample t="499" it="0" lt="13" ct="0" ts="1505369992723" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scriptManager/scriptManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="67496" sby="184" ng="1" na="1"/>
+  <httpSample t="37" it="0" lt="21" ct="0" ts="1505369992741" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/exeMachineManager/exeMachineManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="24420" sby="190" ng="1" na="1"/>
+  <httpSample t="86" it="0" lt="47" ct="27" ts="1505369992778" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/scenarioManager/scenarioManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="37023" sby="189" ng="1" na="1"/>
+  <httpSample t="557" it="0" lt="544" ct="0" ts="1505369992785" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/serverManager/serverManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="8866" sby="185" ng="1" na="1"/>
+  <httpSample t="89" it="0" lt="25" ct="0" ts="1505369992862" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/resultManager/resultManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="31007" sby="185" ng="1" na="1"/>
+  <httpSample t="87" it="0" lt="10" ct="0" ts="1505369992864" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/runManager/runManagerCtrls.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="87594" sby="179" ng="1" na="1"/>
+  <httpSample t="70" it="0" lt="27" ct="16" ts="1505369992951" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/analyseManager/analyseManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="62609" sby="186" ng="1" na="1"/>
+  <httpSample t="238" it="0" lt="16" ct="0" ts="1505369992951" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/reportManager/reportManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="149695" sby="184" ng="1" na="1"/>
+  <httpSample t="37" it="0" lt="25" ct="0" ts="1505369992996" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/project/problemManager/problemManagerCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="14590" sby="186" ng="1" na="1"/>
+  <httpSample t="13" it="0" lt="13" ct="0" ts="1505369993021" s="true" lb="http://180.169.149.4:56004/cpt/js/controllers/home/statement/statementCtrl.js" rc="200" rm="" tn="线程组 1-2" dt="text" by="3909" sby="173" ng="1" na="1"/>
 </httpSample>
 
 </testResults>
